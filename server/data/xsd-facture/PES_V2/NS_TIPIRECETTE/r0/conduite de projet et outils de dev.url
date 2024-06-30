@@ -1,0 +1,12 @@
+[DEFAULT]
+BASEURL=http://magellan.bercy.cp/default.asp
+[DOC#6#8]
+BASEURL=http://magellan.bercy.cp/informatique/cadre0.htm?pg=frame0.htm&pd=3d/conduiteprojet/meth_accueil.htm
+ORIGURL=accueil.htm
+[DOC#6#8#4#5]
+BASEURL=http://magellan.bercy.cp/informatique/frame0.htm
+[DOC#6#8#4#6]
+BASEURL=http://magellan.bercy.cp/informatique/3d/conduiteprojet/meth_accueil.htm
+[InternetShortcut]
+URL=http://magellan.bercy.cp/default.asp
+Modified=309EA0CF6C55CB01CA

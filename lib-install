@@ -1,0 +1,9 @@
+npm install xml2js
+npm install @nuxt/http xml2js
+npm install xml2js express
+npm install nuxt3
+npm install consola@latest
+
+npm install jszip
+npm install file-saver
+

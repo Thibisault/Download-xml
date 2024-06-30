@@ -1,0 +1,3440 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<n:PES_Retour xsi:schemaLocation="http://www.minefi.gouv.fr/cp/helios/pes_v2/Rev0/retour /opt/tx5115/users/ediprod/messages/XML/PES_V2/Externe/Schemas_PES/PES_V2/Rev0/PES_V2_TIPI_RECETTE_Autonome.xsd">
+  <Enveloppe>
+    <Parametres>
+      <Version V="2"/>
+      <TypFic V="TIPIHOP"/>
+      <NomFic V="TIPIHOP_100019_399_2024_000.xml"/>
+    </Parametres>
+  </Enveloppe>
+  <EnTetePES>
+    <DteStr V="2004-04-14"/>
+    <IdPost V="100019"/>
+    <LibellePoste V="CHAMBERY ETS HOSPITALIERS"/>
+    <IdColl V="18047925477611"/>
+    <FinJur V="148377522"/>
+    <CodCol V="399"/>
+    <CodBud V="00"/>
+    <LibelleColBud V="CHG BOURG ST MAURICE"/>
+  </EnTetePES>
+  <PES_TIPI_Recette>
+    <Bordereau>
+      <BlocBordereau>
+        <Exer V="2024"/>
+        <IdBord V="8684363"/>
+        <TypBord V="01"/>
+        <NbrePce V="62"/>
+      </BlocBordereau>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310392"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2009-02-01"/>
+          <FinFact V="2020-07-02"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2013-08-29"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="5LMYnaich0ZiihOjXd6L8vx8Q659AnIWOVGO2EFfxzO7Q5HxpY"/>
+              <Nature V="103500"/>
+              <MtTTC V="645.13"/>
+              <CodEtGeo V="03"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2001-01-02"/>
+              <RefTiers V="758927122884"/>
+              <CatTiers V="01"/>
+              <TypTiers V="27"/>
+              <Civilite V="Ajm"/>
+              <Nom V="oCPJS7TJ9c"/>
+              <Prenom V="lS2o8jPsb4"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="X0TWlAVKg4R4CFlUmlwu"/>
+              <CP V="37116"/>
+              <Ville V="1Ygwz0rpLBbvLj6"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2008-12-09"/>
+              <RefTiers V="705809687367"/>
+              <CatTiers V="01"/>
+              <TypTiers V="46"/>
+              <Civilite V="aWc"/>
+              <Nom V="HnJPd7tJI9"/>
+              <Prenom V="CCPByIMA4Q"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="xNkLdjygA92Xdf81wMcm"/>
+              <CP V="70324"/>
+              <Ville V="8t4EFdNHJl7gijr"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310393"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2013-12-22"/>
+          <FinFact V="2013-11-30"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2022-06-05"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="RTrOxzJ9xElOu3AUPF7q2XK34d82d3yHWKXG08biWvsGMV4mpF"/>
+              <Nature V="031961"/>
+              <MtTTC V="663.16"/>
+              <CodEtGeo V="00"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2009-09-10"/>
+              <RefTiers V="377247458414"/>
+              <CatTiers V="01"/>
+              <TypTiers V="61"/>
+              <Civilite V="P7E"/>
+              <Nom V="zlvrcabHF3"/>
+              <Prenom V="tKoSBVBExd"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="SV506EjauOp83ssD0X2k"/>
+              <CP V="47708"/>
+              <Ville V="7BmPcnFWC404f0G"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2008-10-21"/>
+              <RefTiers V="508734019132"/>
+              <CatTiers V="01"/>
+              <TypTiers V="57"/>
+              <Civilite V="xvc"/>
+              <Nom V="ZhBg3etFHF"/>
+              <Prenom V="33LcVst6u3"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="Dv4Zu60nhIN4vyBRr345"/>
+              <CP V="61839"/>
+              <Ville V="jRhNm7hS0Tk69tt"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310394"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2000-01-19"/>
+          <FinFact V="2011-09-14"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2009-02-10"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="voDLwRsgHRdEsvgfvACI59NdrjF8xWli6espBDaTUhhriaXDFF"/>
+              <Nature V="290098"/>
+              <MtTTC V="856.22"/>
+              <CodEtGeo V="69"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2016-12-04"/>
+              <RefTiers V="115624255467"/>
+              <CatTiers V="01"/>
+              <TypTiers V="10"/>
+              <Civilite V="I6W"/>
+              <Nom V="dXhjnTgAPd"/>
+              <Prenom V="N9qcRPU29G"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="4K5a917VQIUvKa4DBAmM"/>
+              <CP V="72317"/>
+              <Ville V="yG5VnlL5lflI8WG"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2014-02-08"/>
+              <RefTiers V="782557106755"/>
+              <CatTiers V="01"/>
+              <TypTiers V="84"/>
+              <Civilite V="Gsj"/>
+              <Nom V="2aPRvZJTjf"/>
+              <Prenom V="vRA2xzZgMA"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="tW7GKhoytbEB8fxg3QPI"/>
+              <CP V="81574"/>
+              <Ville V="7RgpplJjIv4JuIf"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310395"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2022-07-19"/>
+          <FinFact V="2017-01-07"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2018-08-08"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="w5OMai9wbZbMrWuCzqxB5ydbB7IrF94HTo6OAtutPQwGefk2DI"/>
+              <Nature V="594528"/>
+              <MtTTC V="073.77"/>
+              <CodEtGeo V="75"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2008-03-25"/>
+              <RefTiers V="948940154956"/>
+              <CatTiers V="01"/>
+              <TypTiers V="36"/>
+              <Civilite V="byD"/>
+              <Nom V="S7Xa9RR9eP"/>
+              <Prenom V="o2J98qa0wH"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="vVSJcKH8quI4y8cwQ6K3"/>
+              <CP V="63996"/>
+              <Ville V="tBh0sKs2af6ZiAG"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2006-06-07"/>
+              <RefTiers V="418618383805"/>
+              <CatTiers V="01"/>
+              <TypTiers V="28"/>
+              <Civilite V="1O2"/>
+              <Nom V="kApY28DlXX"/>
+              <Prenom V="HHi0BuVIyY"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="rNywQCeThCI7NSIfhwno"/>
+              <CP V="44336"/>
+              <Ville V="AY3EoNcL5gSEyGQ"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310396"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2016-11-07"/>
+          <FinFact V="2002-10-04"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2002-06-01"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="MVvNPyqnmnpk4kTJrZkEurC4OQXSDVPGZ3NT0eLyaQqI9HFbKh"/>
+              <Nature V="705245"/>
+              <MtTTC V="354.80"/>
+              <CodEtGeo V="31"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2002-05-21"/>
+              <RefTiers V="901263752543"/>
+              <CatTiers V="01"/>
+              <TypTiers V="90"/>
+              <Civilite V="LL4"/>
+              <Nom V="s828KoOBzh"/>
+              <Prenom V="WDyVtgE6tL"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="LWhP1JcrHrLJ3LV0pdUZ"/>
+              <CP V="67803"/>
+              <Ville V="jrw3rPIvESLq8Bv"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2014-10-27"/>
+              <RefTiers V="823181551995"/>
+              <CatTiers V="01"/>
+              <TypTiers V="42"/>
+              <Civilite V="YTB"/>
+              <Nom V="CrRtWTbaMI"/>
+              <Prenom V="WjxQOdo2k9"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="vlwEVOqkW4LtZKgyEryK"/>
+              <CP V="00626"/>
+              <Ville V="RzhkynhqK4wG0UJ"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310397"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2018-02-06"/>
+          <FinFact V="2003-01-13"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2018-09-16"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="JqXCVQ9dlY1lz8RzlaP72j8MUIS01Xnaiu5KyDY6edtXlhMoRK"/>
+              <Nature V="954172"/>
+              <MtTTC V="352.59"/>
+              <CodEtGeo V="14"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2024-04-02"/>
+              <RefTiers V="700219958156"/>
+              <CatTiers V="01"/>
+              <TypTiers V="91"/>
+              <Civilite V="3ZK"/>
+              <Nom V="NRlVpz5b6O"/>
+              <Prenom V="rDR8HGCTOM"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="XkPAZ2Ttl19g0eh3erei"/>
+              <CP V="40492"/>
+              <Ville V="gFTtowDqRCdMM2Q"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2012-07-10"/>
+              <RefTiers V="561162696578"/>
+              <CatTiers V="01"/>
+              <TypTiers V="44"/>
+              <Civilite V="YIJ"/>
+              <Nom V="MqQQ29Mcu1"/>
+              <Prenom V="l570iWS12T"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="VOxzAkFhKYHmiHs9Yo9n"/>
+              <CP V="32656"/>
+              <Ville V="lQkEdP9wluAyaxZ"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310398"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2012-12-06"/>
+          <FinFact V="2013-11-07"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2004-12-06"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="zpKZAN29kmQQPocEtTMQtadrgxLGM8NA9itlKJ9PVkVOrbIZ3W"/>
+              <Nature V="434456"/>
+              <MtTTC V="930.86"/>
+              <CodEtGeo V="33"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2011-03-15"/>
+              <RefTiers V="425659571611"/>
+              <CatTiers V="01"/>
+              <TypTiers V="42"/>
+              <Civilite V="FLV"/>
+              <Nom V="C7o0wrXtl8"/>
+              <Prenom V="JpcyG5Bui9"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="z7vjctc2ZpX5Z1sEpLNi"/>
+              <CP V="97530"/>
+              <Ville V="QOmJerZp4f4oGWi"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2016-11-18"/>
+              <RefTiers V="737432311070"/>
+              <CatTiers V="01"/>
+              <TypTiers V="92"/>
+              <Civilite V="1hr"/>
+              <Nom V="Mk7HhO4ZiR"/>
+              <Prenom V="sdPpzydw4q"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="Iwp8dXGXwhU6Fi5ZflfC"/>
+              <CP V="77044"/>
+              <Ville V="nEhHTa3xngawRqG"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310399"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2010-04-28"/>
+          <FinFact V="2013-04-30"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2017-10-22"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="Jhbplkq7WxDU9mqEbbZUZupzUue1cFImiqTuACEK8AxHeQsjgb"/>
+              <Nature V="072942"/>
+              <MtTTC V="264.62"/>
+              <CodEtGeo V="48"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2006-07-12"/>
+              <RefTiers V="632382441098"/>
+              <CatTiers V="01"/>
+              <TypTiers V="47"/>
+              <Civilite V="yKt"/>
+              <Nom V="Js90ZlUslu"/>
+              <Prenom V="UovjorkM3E"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="wvHWGhSUxno367y0YNBQ"/>
+              <CP V="24385"/>
+              <Ville V="OOf0llak8et0cDH"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2008-01-03"/>
+              <RefTiers V="802495733027"/>
+              <CatTiers V="01"/>
+              <TypTiers V="87"/>
+              <Civilite V="nPY"/>
+              <Nom V="MQfru7oAiu"/>
+              <Prenom V="gvhm2zzK6v"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="2Ug8QQqQMQmfLyzXk8p9"/>
+              <CP V="21493"/>
+              <Ville V="ESvc95p3HYCRDIN"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310400"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2011-08-23"/>
+          <FinFact V="2011-04-30"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2019-10-13"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="uRimtrD2JFxrwWyLbkmriptC4HvZ7CdtTN80WMAc94mOlsvsvP"/>
+              <Nature V="277199"/>
+              <MtTTC V="564.82"/>
+              <CodEtGeo V="97"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2013-06-17"/>
+              <RefTiers V="365616314001"/>
+              <CatTiers V="01"/>
+              <TypTiers V="64"/>
+              <Civilite V="QiI"/>
+              <Nom V="TQzqhM3eAe"/>
+              <Prenom V="A31veHM02N"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="P994zNAvp01FpbKsNuWi"/>
+              <CP V="78902"/>
+              <Ville V="fmZoPWbQKCaEF2J"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2013-02-11"/>
+              <RefTiers V="901654708354"/>
+              <CatTiers V="01"/>
+              <TypTiers V="43"/>
+              <Civilite V="p31"/>
+              <Nom V="jM2YPbDJuj"/>
+              <Prenom V="5mznSoTJ9J"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="N2efTCs9Cgr53qQ8fRY0"/>
+              <CP V="76881"/>
+              <Ville V="nPNQDpzHP1CgT3m"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310401"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2012-01-13"/>
+          <FinFact V="2020-05-24"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2017-07-13"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="VPu3iehF9O4kFAoJXaiRZ245tBig1SHsjxJdi55KrzpM13h1gI"/>
+              <Nature V="921521"/>
+              <MtTTC V="460.35"/>
+              <CodEtGeo V="98"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2001-05-12"/>
+              <RefTiers V="072273316034"/>
+              <CatTiers V="01"/>
+              <TypTiers V="08"/>
+              <Civilite V="3U2"/>
+              <Nom V="yRci9pcQ5h"/>
+              <Prenom V="RzQhqoQ0AM"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="007upzPadWkjpz0gPfQI"/>
+              <CP V="26042"/>
+              <Ville V="XrW9qKLmPCsLQhk"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2000-03-26"/>
+              <RefTiers V="995924266478"/>
+              <CatTiers V="01"/>
+              <TypTiers V="93"/>
+              <Civilite V="cqQ"/>
+              <Nom V="axX5pzIDyB"/>
+              <Prenom V="aanEsooaiI"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="6v5nVlsFmMbqBYK9gkAG"/>
+              <CP V="98975"/>
+              <Ville V="xlVvvcRZBlnjQBr"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310402"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2015-06-11"/>
+          <FinFact V="2022-08-22"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2001-02-03"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="1y1TVt4JFNFaTajEMDYWd1rLoZCm1Q1UfR1PWE8LkHPudVWpgE"/>
+              <Nature V="335309"/>
+              <MtTTC V="148.25"/>
+              <CodEtGeo V="16"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2001-03-10"/>
+              <RefTiers V="390291832156"/>
+              <CatTiers V="01"/>
+              <TypTiers V="87"/>
+              <Civilite V="XHS"/>
+              <Nom V="10ObBBBtXc"/>
+              <Prenom V="x8ypJqUSws"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="7pVJNF4sHvnGhjXNOCdN"/>
+              <CP V="41840"/>
+              <Ville V="E9U2n9228ZhOfMc"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2010-02-01"/>
+              <RefTiers V="909032643104"/>
+              <CatTiers V="01"/>
+              <TypTiers V="50"/>
+              <Civilite V="lz2"/>
+              <Nom V="I5NPCDh8jf"/>
+              <Prenom V="w5ANc1sT17"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="zoGyiSONNW9agbYp4h98"/>
+              <CP V="65805"/>
+              <Ville V="8sxw3u9TyGEgIyD"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310403"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2018-06-25"/>
+          <FinFact V="2002-10-02"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2002-03-29"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="HdEoqctGMtJWS1OfJwhoMzML4eZJiwreLfDvZo8BcF19xqogDR"/>
+              <Nature V="882380"/>
+              <MtTTC V="351.63"/>
+              <CodEtGeo V="51"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2009-04-12"/>
+              <RefTiers V="022006710306"/>
+              <CatTiers V="01"/>
+              <TypTiers V="23"/>
+              <Civilite V="aE2"/>
+              <Nom V="WPVt0GgkgK"/>
+              <Prenom V="OS4ApmKWal"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="6B5xlRebbSF79lJhoiuy"/>
+              <CP V="66283"/>
+              <Ville V="32mDnLQ6867wBh2"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2022-07-10"/>
+              <RefTiers V="736035768709"/>
+              <CatTiers V="01"/>
+              <TypTiers V="25"/>
+              <Civilite V="VBj"/>
+              <Nom V="Kuk1zMn6PX"/>
+              <Prenom V="Fai6nLB43e"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="pQ6oO1oMB3LFArYAJW9S"/>
+              <CP V="43798"/>
+              <Ville V="coawPvN6ThcJZ3U"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310404"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2014-08-03"/>
+          <FinFact V="2015-08-20"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2023-07-10"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="PjqawFY8cB0H2qGWuE1ZcE7NIbsZtBviumAOglYBvxDJgH0Yrh"/>
+              <Nature V="987762"/>
+              <MtTTC V="394.57"/>
+              <CodEtGeo V="41"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2012-04-29"/>
+              <RefTiers V="009080221768"/>
+              <CatTiers V="01"/>
+              <TypTiers V="69"/>
+              <Civilite V="x9t"/>
+              <Nom V="3FtOuaqc2t"/>
+              <Prenom V="agWqpTQupq"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="GMTq34W6sDPknYi1NF85"/>
+              <CP V="38485"/>
+              <Ville V="V6QYf563UduNK3N"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2023-10-04"/>
+              <RefTiers V="428778000986"/>
+              <CatTiers V="01"/>
+              <TypTiers V="13"/>
+              <Civilite V="W3a"/>
+              <Nom V="dulm3819RI"/>
+              <Prenom V="pOQzs0kN5e"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="je1yVhTyTX94ZcJrSCIk"/>
+              <CP V="14284"/>
+              <Ville V="zcHS7kOG9WBB7CB"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310405"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2006-01-16"/>
+          <FinFact V="2024-01-18"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2014-05-21"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="K8MFW2cYqMcnCWfzKZyIPoapY0DsJgnbF2IkJywlad24hP69qh"/>
+              <Nature V="152366"/>
+              <MtTTC V="492.86"/>
+              <CodEtGeo V="42"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2023-04-19"/>
+              <RefTiers V="896039929480"/>
+              <CatTiers V="01"/>
+              <TypTiers V="07"/>
+              <Civilite V="88R"/>
+              <Nom V="TELnOIiWKF"/>
+              <Prenom V="EjCYMixVPk"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="5n2tBgxzBrUe8TREyv1a"/>
+              <CP V="13071"/>
+              <Ville V="yc2J2TzAdEWyB42"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2005-10-16"/>
+              <RefTiers V="795791411748"/>
+              <CatTiers V="01"/>
+              <TypTiers V="33"/>
+              <Civilite V="tBS"/>
+              <Nom V="CWuqgmUnUK"/>
+              <Prenom V="ML1vTe7thz"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="3w8AKc3iyjmpyIxfe7UN"/>
+              <CP V="17706"/>
+              <Ville V="48WmHl7mnw3a27Z"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310406"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2022-08-17"/>
+          <FinFact V="2022-07-30"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2002-09-30"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="a91HEPJ5vEwjVSxbZjMNeihJJ2NfHsvJgbWZdUOfHbHoDne2hh"/>
+              <Nature V="096600"/>
+              <MtTTC V="981.87"/>
+              <CodEtGeo V="73"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2002-01-04"/>
+              <RefTiers V="692803389337"/>
+              <CatTiers V="01"/>
+              <TypTiers V="27"/>
+              <Civilite V="0sX"/>
+              <Nom V="Wad8NRxEqJ"/>
+              <Prenom V="ILJCn8hBSh"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="dKZSdqGbk5EXQ3J8sVuC"/>
+              <CP V="51103"/>
+              <Ville V="uAYV8rTQDlW6ekd"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2022-02-10"/>
+              <RefTiers V="433615030108"/>
+              <CatTiers V="01"/>
+              <TypTiers V="34"/>
+              <Civilite V="WCU"/>
+              <Nom V="BjZ2sTy8bo"/>
+              <Prenom V="PGBw0xV0b3"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="4Kn5GKrmNHGRCWxNCNYB"/>
+              <CP V="82542"/>
+              <Ville V="UDCVBjaOAnlppL4"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310407"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2012-11-03"/>
+          <FinFact V="2002-05-27"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2016-08-12"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="udtJvi8Tp5GX1kL6eImHTXFvDlGLYXJXRc2PJrArhwov9iExLw"/>
+              <Nature V="464344"/>
+              <MtTTC V="092.18"/>
+              <CodEtGeo V="60"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2013-02-04"/>
+              <RefTiers V="629136090545"/>
+              <CatTiers V="01"/>
+              <TypTiers V="90"/>
+              <Civilite V="2Bh"/>
+              <Nom V="MkxXYOH9vL"/>
+              <Prenom V="RGHrnQl2pB"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="wQ6CiHrcLHNd16F5UTHU"/>
+              <CP V="68534"/>
+              <Ville V="bpXdvc8e9KIdvHU"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2022-04-17"/>
+              <RefTiers V="087889464713"/>
+              <CatTiers V="01"/>
+              <TypTiers V="48"/>
+              <Civilite V="NTd"/>
+              <Nom V="ctxp6ggmX7"/>
+              <Prenom V="t8PJH1FWmp"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="oNUlwtHk3BPGEuH853Z5"/>
+              <CP V="40189"/>
+              <Ville V="UnpqbsO0YiQCX61"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310408"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2018-07-31"/>
+          <FinFact V="2002-05-30"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2024-02-23"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="vmtY1CbFENatGwnEhcgvV3HI1SmjB98GaMUGxw1U9SyeY0jCkA"/>
+              <Nature V="095908"/>
+              <MtTTC V="509.64"/>
+              <CodEtGeo V="95"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2010-11-26"/>
+              <RefTiers V="957311846652"/>
+              <CatTiers V="01"/>
+              <TypTiers V="64"/>
+              <Civilite V="f1f"/>
+              <Nom V="fNU0kXaLiJ"/>
+              <Prenom V="wLngl25YBA"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="fyamyZCrufNtIxDId8Lk"/>
+              <CP V="04742"/>
+              <Ville V="v3MjBzn1MtkUJWv"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2012-02-13"/>
+              <RefTiers V="829478394607"/>
+              <CatTiers V="01"/>
+              <TypTiers V="22"/>
+              <Civilite V="TO4"/>
+              <Nom V="kzooFUZXao"/>
+              <Prenom V="QGKBr10Y6t"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="KXYVThi77Ess9goKyEpe"/>
+              <CP V="09937"/>
+              <Ville V="L1Fsoj7WCW2vWA0"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310409"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2011-08-16"/>
+          <FinFact V="2006-05-31"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2015-07-30"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="MyW8WDVR2l40eqQ3dRzn71d6kTrFTFDalgWf0VLXV8r49dXTjU"/>
+              <Nature V="646070"/>
+              <MtTTC V="727.96"/>
+              <CodEtGeo V="08"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2012-11-29"/>
+              <RefTiers V="241326090204"/>
+              <CatTiers V="01"/>
+              <TypTiers V="14"/>
+              <Civilite V="YmS"/>
+              <Nom V="jZ5fAYHbFC"/>
+              <Prenom V="75w26e1HB9"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="sLml4YzTYtEy67eyYZFY"/>
+              <CP V="74850"/>
+              <Ville V="EtdVrOO0w78v6lw"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2016-02-03"/>
+              <RefTiers V="122003246822"/>
+              <CatTiers V="01"/>
+              <TypTiers V="35"/>
+              <Civilite V="if0"/>
+              <Nom V="TLWvYCRWBd"/>
+              <Prenom V="3j8KpiBLig"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="aF1ZolzgDH2UVdRliPZW"/>
+              <CP V="89807"/>
+              <Ville V="8IJsogdTmmZ4qXt"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310410"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2002-09-18"/>
+          <FinFact V="2005-01-17"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2005-10-31"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="3vyMSHB8G0Z2V1f5KbE7YLU2p2i2wQU7nsmssmzKFDD620FPps"/>
+              <Nature V="937613"/>
+              <MtTTC V="457.90"/>
+              <CodEtGeo V="77"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2010-06-10"/>
+              <RefTiers V="616061601100"/>
+              <CatTiers V="01"/>
+              <TypTiers V="78"/>
+              <Civilite V="A6n"/>
+              <Nom V="mUD4VcLpOs"/>
+              <Prenom V="quVATbza7F"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="M3cwNX8eyrHnLBMVkHe4"/>
+              <CP V="06789"/>
+              <Ville V="wHebymPOX4Xp2sa"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2012-10-09"/>
+              <RefTiers V="002021642706"/>
+              <CatTiers V="01"/>
+              <TypTiers V="68"/>
+              <Civilite V="K6C"/>
+              <Nom V="qc9Nai5xgY"/>
+              <Prenom V="4fvRubtGme"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="W0XD6l7u7azC02KWzLKe"/>
+              <CP V="80126"/>
+              <Ville V="Nn4inpXKGU9v0Tf"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310411"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2002-12-08"/>
+          <FinFact V="2002-04-22"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2020-08-06"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="bxrJiqiiPHcCEVajtwcAQudgasqEYkNqQiLzDt6FRt0gFgZOws"/>
+              <Nature V="916285"/>
+              <MtTTC V="892.80"/>
+              <CodEtGeo V="68"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2019-12-10"/>
+              <RefTiers V="899773100993"/>
+              <CatTiers V="01"/>
+              <TypTiers V="39"/>
+              <Civilite V="cHQ"/>
+              <Nom V="59dWjfUhwZ"/>
+              <Prenom V="1z3dEh3kCs"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="JKt2fP2GQ8xintIM5yvR"/>
+              <CP V="08662"/>
+              <Ville V="Wscj5LEyU0GhPNN"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2015-05-02"/>
+              <RefTiers V="639830617512"/>
+              <CatTiers V="01"/>
+              <TypTiers V="61"/>
+              <Civilite V="GBU"/>
+              <Nom V="trGa6hXmGG"/>
+              <Prenom V="fwTYGxarSF"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="F7v30Ad2yxhHajwe8l9c"/>
+              <CP V="70845"/>
+              <Ville V="v6GCFMzeYFDFGrS"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310412"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2000-09-17"/>
+          <FinFact V="2001-01-10"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2001-12-01"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="4V4zVTvFIwFWViQDzs56kplH5geWelJAKgnc4f3i5BRvzKwZjG"/>
+              <Nature V="525349"/>
+              <MtTTC V="315.05"/>
+              <CodEtGeo V="31"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2014-11-04"/>
+              <RefTiers V="912682408625"/>
+              <CatTiers V="01"/>
+              <TypTiers V="49"/>
+              <Civilite V="qpK"/>
+              <Nom V="9CGlL5O8u2"/>
+              <Prenom V="J2hDlSq7BP"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="QqsewORpAL19rRd8brHK"/>
+              <CP V="36662"/>
+              <Ville V="Jz2cPvxvblOnC73"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2006-09-19"/>
+              <RefTiers V="047906389188"/>
+              <CatTiers V="01"/>
+              <TypTiers V="95"/>
+              <Civilite V="PGe"/>
+              <Nom V="3hYXK6cQuJ"/>
+              <Prenom V="8bt6hf6sGp"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="qMXm65cBOcAXFWSQNrA2"/>
+              <CP V="53891"/>
+              <Ville V="77bjVZPaubXzix7"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310413"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2007-04-03"/>
+          <FinFact V="2004-11-17"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2001-10-13"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="zQPR3vVWSKlzZCZwd7GOXdUzjlVdid85uhqbbvbarwGLOPdfdT"/>
+              <Nature V="236118"/>
+              <MtTTC V="959.13"/>
+              <CodEtGeo V="30"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2014-12-17"/>
+              <RefTiers V="272589162778"/>
+              <CatTiers V="01"/>
+              <TypTiers V="72"/>
+              <Civilite V="BIT"/>
+              <Nom V="FMcF8ow7d0"/>
+              <Prenom V="rv2GvSJwXe"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="bNLX4bD6hG74QDwAgCJR"/>
+              <CP V="44686"/>
+              <Ville V="5lXy69IDKz9oBBF"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2007-10-07"/>
+              <RefTiers V="286219015054"/>
+              <CatTiers V="01"/>
+              <TypTiers V="12"/>
+              <Civilite V="kKW"/>
+              <Nom V="N6SoURY0f3"/>
+              <Prenom V="5DRJwXzpNW"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="OWyHcOz5CHQT5qKFxhb0"/>
+              <CP V="51390"/>
+              <Ville V="TIhz78OlHlRuiy1"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310414"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2019-11-17"/>
+          <FinFact V="2022-09-03"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2006-09-08"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="DOA7uWrmh8cJWVvvntt6l4MQzZfUWBOPYsTTieDUiBeKwbHZJn"/>
+              <Nature V="691326"/>
+              <MtTTC V="618.24"/>
+              <CodEtGeo V="87"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2020-02-09"/>
+              <RefTiers V="760953875958"/>
+              <CatTiers V="01"/>
+              <TypTiers V="69"/>
+              <Civilite V="hTJ"/>
+              <Nom V="5RbcjgtgyU"/>
+              <Prenom V="xWlWizm0dj"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="xMg2IR6sWEVtkkppGq9L"/>
+              <CP V="73320"/>
+              <Ville V="o7wSbA4x5qxfAWI"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2012-09-12"/>
+              <RefTiers V="631314069278"/>
+              <CatTiers V="01"/>
+              <TypTiers V="42"/>
+              <Civilite V="Pt3"/>
+              <Nom V="pv0ANEkAkG"/>
+              <Prenom V="X1UFrIkf3p"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="kmNmVjlnm7eoQCy44xOw"/>
+              <CP V="60181"/>
+              <Ville V="CtEklaYMAnA0OTe"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310415"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2013-08-16"/>
+          <FinFact V="2017-01-31"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2007-07-24"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="GhPrgAvW154m1Dmp8gz6K5gYK8DCNUF0xV0CGRbSULJZayl546"/>
+              <Nature V="941525"/>
+              <MtTTC V="104.68"/>
+              <CodEtGeo V="13"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2007-07-03"/>
+              <RefTiers V="142124746311"/>
+              <CatTiers V="01"/>
+              <TypTiers V="19"/>
+              <Civilite V="vHb"/>
+              <Nom V="WRFfGhIIht"/>
+              <Prenom V="iKQWPMmjBH"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="h7UsuvHgbkX5i53nUjmP"/>
+              <CP V="61885"/>
+              <Ville V="x8EGW1xU4mB7m4w"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2005-09-04"/>
+              <RefTiers V="445997386739"/>
+              <CatTiers V="01"/>
+              <TypTiers V="63"/>
+              <Civilite V="3fK"/>
+              <Nom V="e3Ee0LcLnE"/>
+              <Prenom V="qKTwAoWrBH"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="J385HW1Gh03LRG8oVeqg"/>
+              <CP V="03421"/>
+              <Ville V="OMu4EdKHVqqwzpm"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310416"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2004-10-09"/>
+          <FinFact V="2020-01-05"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2022-07-12"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="wHKuVdaPWGXlXzWwRlRsxGrIO7LLZP9Geynrprq1bp9Lla5F7h"/>
+              <Nature V="652339"/>
+              <MtTTC V="000.70"/>
+              <CodEtGeo V="99"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2004-05-21"/>
+              <RefTiers V="034297294773"/>
+              <CatTiers V="01"/>
+              <TypTiers V="88"/>
+              <Civilite V="dDZ"/>
+              <Nom V="iUF0mPYjTH"/>
+              <Prenom V="8C8ZHh2lej"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="lct5DxhkkG9Zfwja7zYH"/>
+              <CP V="03387"/>
+              <Ville V="bEKKjYwhHXbywa0"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2022-02-17"/>
+              <RefTiers V="021532024889"/>
+              <CatTiers V="01"/>
+              <TypTiers V="21"/>
+              <Civilite V="44S"/>
+              <Nom V="yG0n6tX9Hw"/>
+              <Prenom V="LJjb9HD4BG"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="xeaUVnTQy1moIg9wDiM3"/>
+              <CP V="81643"/>
+              <Ville V="CytMGcnC5Kq4Bxw"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310417"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2020-08-08"/>
+          <FinFact V="2014-03-14"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2010-12-05"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="7fovpEh17ML0uOgB92ZOCPVDBQyQ97F98CIqkghR4HSBkQzbFx"/>
+              <Nature V="035470"/>
+              <MtTTC V="530.79"/>
+              <CodEtGeo V="83"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2017-12-15"/>
+              <RefTiers V="659659380359"/>
+              <CatTiers V="01"/>
+              <TypTiers V="41"/>
+              <Civilite V="Mam"/>
+              <Nom V="VizPDvqDFV"/>
+              <Prenom V="Rzd22IMqrn"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="7rf7FAXowD1Negr6FKHD"/>
+              <CP V="52428"/>
+              <Ville V="usbTlGsBPNszp1D"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2001-06-27"/>
+              <RefTiers V="664985080254"/>
+              <CatTiers V="01"/>
+              <TypTiers V="19"/>
+              <Civilite V="9EC"/>
+              <Nom V="RByYlUhkvE"/>
+              <Prenom V="UEdLYQmbtJ"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="CVkaTyhaTWuAoKZZeoeo"/>
+              <CP V="04047"/>
+              <Ville V="BScWaUaCqlcRWZc"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310418"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2002-05-13"/>
+          <FinFact V="2002-05-17"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2007-05-04"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="QXhLgRsfPQvueKfpqHKIF5kBuPELq1zst57WxtsxJ6eX96qBpd"/>
+              <Nature V="993860"/>
+              <MtTTC V="441.85"/>
+              <CodEtGeo V="50"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2013-10-29"/>
+              <RefTiers V="116765736707"/>
+              <CatTiers V="01"/>
+              <TypTiers V="96"/>
+              <Civilite V="N51"/>
+              <Nom V="r5LFVn0OfR"/>
+              <Prenom V="n2V732oTKb"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="0i0mmOSwC3FNvNd6sGyu"/>
+              <CP V="60710"/>
+              <Ville V="10jDPZU9KGwaHEt"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2013-02-15"/>
+              <RefTiers V="988916314317"/>
+              <CatTiers V="01"/>
+              <TypTiers V="58"/>
+              <Civilite V="r4Q"/>
+              <Nom V="lkMpf4QIsd"/>
+              <Prenom V="pILwptIvET"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="VBbiHID2UCPfyWzRw0xW"/>
+              <CP V="84764"/>
+              <Ville V="dve6UjXSeRrE3rM"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310419"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2017-07-18"/>
+          <FinFact V="2012-07-11"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2012-01-22"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="RDFZOaxF2NhLGtsBwtR5o4K93kcfOXpuFySctUa9MYi0MTsscJ"/>
+              <Nature V="708243"/>
+              <MtTTC V="259.44"/>
+              <CodEtGeo V="28"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2022-04-30"/>
+              <RefTiers V="896834115224"/>
+              <CatTiers V="01"/>
+              <TypTiers V="99"/>
+              <Civilite V="lTa"/>
+              <Nom V="flV9TnDoqU"/>
+              <Prenom V="omTtrYVsDk"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="EWjNpDAucgUxv5gEokrd"/>
+              <CP V="46225"/>
+              <Ville V="4wjNdQnkL3IycZ0"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2003-01-26"/>
+              <RefTiers V="474496482220"/>
+              <CatTiers V="01"/>
+              <TypTiers V="69"/>
+              <Civilite V="mTA"/>
+              <Nom V="zzAlkUthl1"/>
+              <Prenom V="34J3UQZd5w"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="UXQZHKlGnJIaFUu1Tje7"/>
+              <CP V="31587"/>
+              <Ville V="jEjZ0aIPLyqohTd"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310420"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2023-05-26"/>
+          <FinFact V="2009-12-11"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2003-08-13"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="uNxGZV6BKZVOapaJ3YwVrQ0gFWyEvgzIRiLuldLy06sy0q06sR"/>
+              <Nature V="004088"/>
+              <MtTTC V="375.93"/>
+              <CodEtGeo V="34"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2014-11-13"/>
+              <RefTiers V="048659988780"/>
+              <CatTiers V="01"/>
+              <TypTiers V="36"/>
+              <Civilite V="CaB"/>
+              <Nom V="VppFjV7rNv"/>
+              <Prenom V="gSzF37Z3cn"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="51JGBPvV1P0N6LAE4E1A"/>
+              <CP V="98872"/>
+              <Ville V="f6dcaRgEUevf932"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2014-10-08"/>
+              <RefTiers V="513733329270"/>
+              <CatTiers V="01"/>
+              <TypTiers V="46"/>
+              <Civilite V="PH6"/>
+              <Nom V="qDwwOfPJA2"/>
+              <Prenom V="cdqtxdmFm5"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="Q91mXyIbGUgvPk6PnJfY"/>
+              <CP V="95112"/>
+              <Ville V="kfPpblBp6ChA07l"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310421"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2004-11-25"/>
+          <FinFact V="2000-09-22"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2022-06-03"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="CEfXeoizTVCs8PRSJWxD7RWmKIgP6gy6EqUKIpNOuvYJSZfcf5"/>
+              <Nature V="373357"/>
+              <MtTTC V="415.36"/>
+              <CodEtGeo V="44"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2012-04-22"/>
+              <RefTiers V="839235467671"/>
+              <CatTiers V="01"/>
+              <TypTiers V="63"/>
+              <Civilite V="F9L"/>
+              <Nom V="PrXeySqCPd"/>
+              <Prenom V="FroN7lXxhC"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="qvXTBrcD6JLWoEcI1gOH"/>
+              <CP V="63640"/>
+              <Ville V="znJT7upST5wD6Li"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2018-02-11"/>
+              <RefTiers V="320679057459"/>
+              <CatTiers V="01"/>
+              <TypTiers V="38"/>
+              <Civilite V="EdJ"/>
+              <Nom V="7FJcDQ9LOj"/>
+              <Prenom V="T5yTSrwZ9Y"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="WbMoBJ415l3SL0eOnhGK"/>
+              <CP V="20623"/>
+              <Ville V="8oDJDwvYspCOqxC"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310422"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2021-07-26"/>
+          <FinFact V="2003-08-10"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2000-05-10"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="tnzFW9dpmPqt68iBZP65d69eJwxpp8kzYtYxCMXJgLhqzPoZlq"/>
+              <Nature V="760233"/>
+              <MtTTC V="358.25"/>
+              <CodEtGeo V="95"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2010-12-29"/>
+              <RefTiers V="152268599598"/>
+              <CatTiers V="01"/>
+              <TypTiers V="48"/>
+              <Civilite V="3uF"/>
+              <Nom V="aRLdtqZguf"/>
+              <Prenom V="mZ8pmuoVmV"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="3wkyfVGyun7zpqfu1qs5"/>
+              <CP V="95056"/>
+              <Ville V="c1YdneR2sDLtDcB"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2000-01-16"/>
+              <RefTiers V="207442238146"/>
+              <CatTiers V="01"/>
+              <TypTiers V="76"/>
+              <Civilite V="pb1"/>
+              <Nom V="3fi7CugNr7"/>
+              <Prenom V="17mxuxKen0"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="81pgAjvieCkdzqoaIxc8"/>
+              <CP V="62261"/>
+              <Ville V="pDcbBC0xbIFnRr9"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310423"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2001-01-16"/>
+          <FinFact V="2012-11-11"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2023-11-26"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="KO0Y2E3i6W1Y4WcE2dEPRtKEcTu54lcRFcgeuaYr84De4YhZx3"/>
+              <Nature V="903377"/>
+              <MtTTC V="352.34"/>
+              <CodEtGeo V="50"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2008-06-25"/>
+              <RefTiers V="851341693108"/>
+              <CatTiers V="01"/>
+              <TypTiers V="71"/>
+              <Civilite V="Zd8"/>
+              <Nom V="1yDhHdoIMs"/>
+              <Prenom V="T7XVafVdXV"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="Y9kb80v9eG7wx3cUSN1X"/>
+              <CP V="22853"/>
+              <Ville V="kneHqhKxds3pvuY"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2009-09-23"/>
+              <RefTiers V="785902992471"/>
+              <CatTiers V="01"/>
+              <TypTiers V="15"/>
+              <Civilite V="vG9"/>
+              <Nom V="tWbxtNSjvY"/>
+              <Prenom V="NqzYSpukeJ"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="Y3kwGtpbj3DjvcMVL7LP"/>
+              <CP V="94120"/>
+              <Ville V="spibiH8dxW6eJ0d"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310424"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2004-09-26"/>
+          <FinFact V="2023-01-25"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2008-01-19"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="gzvJhKuGv5iSHaiksA08jiXjF7QwlxGZTXTfFP4Q0Nqj7Qhljs"/>
+              <Nature V="359338"/>
+              <MtTTC V="329.65"/>
+              <CodEtGeo V="40"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2002-06-02"/>
+              <RefTiers V="076692469797"/>
+              <CatTiers V="01"/>
+              <TypTiers V="67"/>
+              <Civilite V="n56"/>
+              <Nom V="ALKz0J97NT"/>
+              <Prenom V="5y4HlaNgGn"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="pAPfsMujYm9ZDT4Lwry4"/>
+              <CP V="92837"/>
+              <Ville V="DJ7qvbqnmuF8WtM"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2022-01-30"/>
+              <RefTiers V="887622053636"/>
+              <CatTiers V="01"/>
+              <TypTiers V="10"/>
+              <Civilite V="Irm"/>
+              <Nom V="4TgDqNzJQ2"/>
+              <Prenom V="CloG0TGawU"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="PluY4fDfL6fYIMRV8QoQ"/>
+              <CP V="81363"/>
+              <Ville V="M9yXj2d6afXQCRO"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310425"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2000-06-12"/>
+          <FinFact V="2004-03-03"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2005-07-20"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="6MKAZ0eBnB6CYM6VsGkVqlUXKrajX6bYb952ZM3HMK7gH9wOka"/>
+              <Nature V="362168"/>
+              <MtTTC V="834.06"/>
+              <CodEtGeo V="18"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2013-06-18"/>
+              <RefTiers V="581891858257"/>
+              <CatTiers V="01"/>
+              <TypTiers V="08"/>
+              <Civilite V="hYl"/>
+              <Nom V="UVFGCspFuw"/>
+              <Prenom V="ay8ru2dqef"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="1bLj8HiOOzoBPEG6XjxV"/>
+              <CP V="15969"/>
+              <Ville V="hxgAmxt4utPSvxE"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2008-03-14"/>
+              <RefTiers V="344375554166"/>
+              <CatTiers V="01"/>
+              <TypTiers V="11"/>
+              <Civilite V="kot"/>
+              <Nom V="a7MBemve7t"/>
+              <Prenom V="2Qkg9byonl"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="YIB3tlZYZZoTayQFzgSV"/>
+              <CP V="37834"/>
+              <Ville V="bRuNwRFu6ELqWuP"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310426"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2008-05-03"/>
+          <FinFact V="2002-01-15"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2014-11-10"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="KaqQzYUd8Rxw3uQOqmCYt0e8Ay6IcIMUbu0hW5lcOBeyaSF4Wq"/>
+              <Nature V="053231"/>
+              <MtTTC V="266.35"/>
+              <CodEtGeo V="66"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2010-07-26"/>
+              <RefTiers V="960582418653"/>
+              <CatTiers V="01"/>
+              <TypTiers V="89"/>
+              <Civilite V="Ts6"/>
+              <Nom V="D8Xyx2sNlw"/>
+              <Prenom V="OLKL24Xl7a"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="ndz7durFGDprth9UYJYF"/>
+              <CP V="86682"/>
+              <Ville V="yk5rltHMlyNbQo0"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2005-08-30"/>
+              <RefTiers V="730939748980"/>
+              <CatTiers V="01"/>
+              <TypTiers V="14"/>
+              <Civilite V="OHn"/>
+              <Nom V="tzXZ0pvuw7"/>
+              <Prenom V="5nA26zJnR6"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="Suawl3WaAK7F6U4bahEz"/>
+              <CP V="41524"/>
+              <Ville V="QY6kIF3dBWCE1le"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310427"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2020-08-07"/>
+          <FinFact V="2004-05-30"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2023-10-01"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="JtXs1oNwXCABJBukq4CSTFF6t27sExI4KXprneUhuWgDfenQus"/>
+              <Nature V="466125"/>
+              <MtTTC V="591.15"/>
+              <CodEtGeo V="67"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2004-05-06"/>
+              <RefTiers V="174936429472"/>
+              <CatTiers V="01"/>
+              <TypTiers V="47"/>
+              <Civilite V="A79"/>
+              <Nom V="ZAsmw6tzie"/>
+              <Prenom V="4XvuDFHrUX"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="xucWqj2cA3pZZ0qWy5Ai"/>
+              <CP V="36803"/>
+              <Ville V="AiqUfkGwkDxMNa4"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2001-10-01"/>
+              <RefTiers V="114137054581"/>
+              <CatTiers V="01"/>
+              <TypTiers V="38"/>
+              <Civilite V="krF"/>
+              <Nom V="GrJStEfx1o"/>
+              <Prenom V="W6y7AIRndT"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="wRWPaMqB3g2ejmEnLaSl"/>
+              <CP V="26698"/>
+              <Ville V="3NRl9UtLBHCMCY2"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310428"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2024-05-29"/>
+          <FinFact V="2018-02-27"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2014-05-07"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="gkFOJBp1tyv28Umen3UsWzB7ziyCE1ydbloCiem21pxDs9WByp"/>
+              <Nature V="396464"/>
+              <MtTTC V="598.30"/>
+              <CodEtGeo V="90"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2004-06-14"/>
+              <RefTiers V="258564105512"/>
+              <CatTiers V="01"/>
+              <TypTiers V="17"/>
+              <Civilite V="7SR"/>
+              <Nom V="AQgrRV2SR9"/>
+              <Prenom V="hxjmrYItYv"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="NuROfe6A2oEhT1JKZ4Q3"/>
+              <CP V="69240"/>
+              <Ville V="KZyAcROlRXn9WHj"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2008-10-25"/>
+              <RefTiers V="132867513782"/>
+              <CatTiers V="01"/>
+              <TypTiers V="24"/>
+              <Civilite V="xKF"/>
+              <Nom V="TXWyIAEqIH"/>
+              <Prenom V="yUe18K9o8W"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="WPTVGc8Yfi6lcPJOGb5F"/>
+              <CP V="98359"/>
+              <Ville V="2plCJoYCsyaqUfT"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310429"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2001-07-05"/>
+          <FinFact V="2014-05-06"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2006-08-14"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="KwDAbNZN3vsf1T3RK1x1AoHxVdenjbjbCzuYmjXbfid6cgu7lk"/>
+              <Nature V="820181"/>
+              <MtTTC V="690.77"/>
+              <CodEtGeo V="32"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2001-07-27"/>
+              <RefTiers V="082919882973"/>
+              <CatTiers V="01"/>
+              <TypTiers V="60"/>
+              <Civilite V="8dC"/>
+              <Nom V="jBwRsQnM3A"/>
+              <Prenom V="3RS8B96lO6"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="hLk7Xc0SO21nOtEI6uR5"/>
+              <CP V="74817"/>
+              <Ville V="K9t7GvN8a3Gs0Od"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2010-09-24"/>
+              <RefTiers V="923322212841"/>
+              <CatTiers V="01"/>
+              <TypTiers V="83"/>
+              <Civilite V="dpU"/>
+              <Nom V="fXDIdL73z5"/>
+              <Prenom V="Nxdljt7Lrr"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="JDuQ0UUaXDa65ogr4NV8"/>
+              <CP V="03250"/>
+              <Ville V="8AWweEEySZsngbh"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310430"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2004-07-17"/>
+          <FinFact V="2007-03-21"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2003-09-15"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="hOjskw2M34W0PdPHbT7pwCATkHVVaeAP59SG8NujJEIcI3Tudy"/>
+              <Nature V="628903"/>
+              <MtTTC V="391.76"/>
+              <CodEtGeo V="94"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2024-04-16"/>
+              <RefTiers V="623730874592"/>
+              <CatTiers V="01"/>
+              <TypTiers V="49"/>
+              <Civilite V="anQ"/>
+              <Nom V="YCMDrVGpcm"/>
+              <Prenom V="awO3gFeYL9"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="UNQQSmYgdSWBJTrCypQT"/>
+              <CP V="90129"/>
+              <Ville V="swQCX2LuOt3dTMW"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2005-06-03"/>
+              <RefTiers V="548196077959"/>
+              <CatTiers V="01"/>
+              <TypTiers V="33"/>
+              <Civilite V="BHr"/>
+              <Nom V="q0pKzFWJ4s"/>
+              <Prenom V="DI1E4a1VIV"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="zLMYYTMKEhOgXZl2BdvC"/>
+              <CP V="77277"/>
+              <Ville V="QzpGcGy9snoAaIk"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310431"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2013-01-09"/>
+          <FinFact V="2013-02-12"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2020-02-21"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="SKfc3NKppvm8yzitCVT2zascd5gGTx7qcaZSDqh7bV3bcUjsQZ"/>
+              <Nature V="915541"/>
+              <MtTTC V="784.76"/>
+              <CodEtGeo V="24"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2018-09-22"/>
+              <RefTiers V="233697277269"/>
+              <CatTiers V="01"/>
+              <TypTiers V="89"/>
+              <Civilite V="Zoc"/>
+              <Nom V="XoMBoy5Cvd"/>
+              <Prenom V="C3W6m1YpsF"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="gItSF85OvT6fgh7j1QUd"/>
+              <CP V="87365"/>
+              <Ville V="Lj5gKzv5uFDWb7r"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2000-11-23"/>
+              <RefTiers V="193927532751"/>
+              <CatTiers V="01"/>
+              <TypTiers V="26"/>
+              <Civilite V="PFw"/>
+              <Nom V="KucpaLhOkG"/>
+              <Prenom V="7JfXYPCorx"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="N63JdqYv0z5xjT1ikBQ7"/>
+              <CP V="10845"/>
+              <Ville V="0NEQnS5McxbbTOf"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310432"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2000-11-18"/>
+          <FinFact V="2014-11-25"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2022-04-25"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="0oRMv2x4wTcM8W8QW0sZK8NfTqao32NGUCGYkFeASCu4F7eGCH"/>
+              <Nature V="255338"/>
+              <MtTTC V="964.67"/>
+              <CodEtGeo V="40"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2017-03-14"/>
+              <RefTiers V="268239667341"/>
+              <CatTiers V="01"/>
+              <TypTiers V="35"/>
+              <Civilite V="TXX"/>
+              <Nom V="jIpPq1UAII"/>
+              <Prenom V="UjRC7nHTFj"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="BwsY6e8gAJC8nwAG8CwC"/>
+              <CP V="78572"/>
+              <Ville V="1d7yqOiQp2GTqr0"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2015-03-05"/>
+              <RefTiers V="964337370305"/>
+              <CatTiers V="01"/>
+              <TypTiers V="76"/>
+              <Civilite V="Q9U"/>
+              <Nom V="eFx4khBcCU"/>
+              <Prenom V="UF9KtFMwVL"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="hP3IGv5vHR2AbnmEZYwh"/>
+              <CP V="29022"/>
+              <Ville V="pfGCrWzzrYAhdMb"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310433"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2011-05-02"/>
+          <FinFact V="2016-03-08"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2008-08-09"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="TEQUEVIlPNNvESlcy8JNHsA3bgvY8mdwzFiHGhxeWEbzFGsmxX"/>
+              <Nature V="089714"/>
+              <MtTTC V="655.17"/>
+              <CodEtGeo V="96"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2007-05-10"/>
+              <RefTiers V="243504453449"/>
+              <CatTiers V="01"/>
+              <TypTiers V="77"/>
+              <Civilite V="EUH"/>
+              <Nom V="BfR1JaUFwy"/>
+              <Prenom V="uoHGwaXHRz"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="A3MBns3hTTDdRLuR3oZN"/>
+              <CP V="01132"/>
+              <Ville V="6XPuGjD5KHY1d9w"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2023-09-06"/>
+              <RefTiers V="149784218580"/>
+              <CatTiers V="01"/>
+              <TypTiers V="26"/>
+              <Civilite V="jh9"/>
+              <Nom V="SlncxdwCZQ"/>
+              <Prenom V="yNARXGnYC5"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="CYevX58ili9VIVRvcp7G"/>
+              <CP V="49693"/>
+              <Ville V="A4cMzpGstO92DBY"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310434"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2016-11-16"/>
+          <FinFact V="2018-08-05"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2022-10-26"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="n8skMKvNNrzA5WFfohBCGRTZywamWLw5sxA319dQeKIYTeQ5sd"/>
+              <Nature V="260095"/>
+              <MtTTC V="178.73"/>
+              <CodEtGeo V="73"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2018-02-09"/>
+              <RefTiers V="509077276630"/>
+              <CatTiers V="01"/>
+              <TypTiers V="53"/>
+              <Civilite V="doe"/>
+              <Nom V="ABbqYo0f3a"/>
+              <Prenom V="uB69YvQOBV"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="9hEhTAOlWPPhrrc7BZx2"/>
+              <CP V="30260"/>
+              <Ville V="Iz3mZTsMVXhZ3EW"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2013-12-15"/>
+              <RefTiers V="093212612836"/>
+              <CatTiers V="01"/>
+              <TypTiers V="74"/>
+              <Civilite V="fpC"/>
+              <Nom V="Jvns7kx59U"/>
+              <Prenom V="HSBkpCqTya"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="8oO10eFIYTetMprRNhQP"/>
+              <CP V="47766"/>
+              <Ville V="njbsr9Sun7miRtS"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310435"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2005-08-18"/>
+          <FinFact V="2007-05-04"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2012-08-18"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="Qn6SXdKDmyQHpqJZvvw25rx55yQu2WbJwzJHzVswgrCAB3ik5B"/>
+              <Nature V="178954"/>
+              <MtTTC V="889.70"/>
+              <CodEtGeo V="94"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2004-09-08"/>
+              <RefTiers V="918363403360"/>
+              <CatTiers V="01"/>
+              <TypTiers V="60"/>
+              <Civilite V="pSB"/>
+              <Nom V="Qx1Pymg05I"/>
+              <Prenom V="Qhlkd11ZtI"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="SOtcx2FL30LaOGbU2JCD"/>
+              <CP V="16803"/>
+              <Ville V="VMHdvHMdBQEyzvm"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2009-01-15"/>
+              <RefTiers V="901389183064"/>
+              <CatTiers V="01"/>
+              <TypTiers V="57"/>
+              <Civilite V="BdB"/>
+              <Nom V="NT92pYUttg"/>
+              <Prenom V="ShXPN91x5C"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="UWGiSMjoYNsbOWkPVmyi"/>
+              <CP V="39384"/>
+              <Ville V="6hrTWnsvEB37WIs"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310436"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2006-11-04"/>
+          <FinFact V="2011-02-15"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2019-01-19"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="m1IPFhl7lTvAPk5zl0GaDlkrvb9czGSJL8SuHmKhcShez0WR7c"/>
+              <Nature V="933869"/>
+              <MtTTC V="757.72"/>
+              <CodEtGeo V="36"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2004-12-16"/>
+              <RefTiers V="387919191726"/>
+              <CatTiers V="01"/>
+              <TypTiers V="03"/>
+              <Civilite V="bzA"/>
+              <Nom V="CvebZoPoVg"/>
+              <Prenom V="CYfidJ2i3A"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="h1KghnNqtbAMIbrd9fT4"/>
+              <CP V="76773"/>
+              <Ville V="FJCyYJLmh9oDxGY"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2020-05-13"/>
+              <RefTiers V="543281088496"/>
+              <CatTiers V="01"/>
+              <TypTiers V="60"/>
+              <Civilite V="jpx"/>
+              <Nom V="KNTw36tgjf"/>
+              <Prenom V="xGtQrdy991"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="b1KNARrsowjELnnbNEtJ"/>
+              <CP V="28851"/>
+              <Ville V="Kz3kdRsnvE8xScr"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310437"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2006-09-10"/>
+          <FinFact V="2001-07-04"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2017-05-02"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="XIyF9daCDbDlFA5UrICHoWfiGGgVf3t1eWFQLqjhlu5RkvRlSz"/>
+              <Nature V="963834"/>
+              <MtTTC V="571.94"/>
+              <CodEtGeo V="32"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2010-02-11"/>
+              <RefTiers V="627366034283"/>
+              <CatTiers V="01"/>
+              <TypTiers V="33"/>
+              <Civilite V="Hht"/>
+              <Nom V="QUpjhSl9NB"/>
+              <Prenom V="955Kk3Zr4C"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="Zg2TSyJCR6ZpYkqjm9A9"/>
+              <CP V="08917"/>
+              <Ville V="2e5bvqNDKbVUbVy"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2022-11-08"/>
+              <RefTiers V="364845548348"/>
+              <CatTiers V="01"/>
+              <TypTiers V="39"/>
+              <Civilite V="Osf"/>
+              <Nom V="zFz7eOY9hq"/>
+              <Prenom V="jMUAKXx7Em"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="TiRpnQ68RaF0fgE3h8E0"/>
+              <CP V="23793"/>
+              <Ville V="yain2T75GJimwvw"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310438"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2011-12-13"/>
+          <FinFact V="2020-12-11"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2017-07-30"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="ZngetsN2eOEeThw0qXZ6fohnarwIHf82sQBTCyYYdzRR4WvZfD"/>
+              <Nature V="746701"/>
+              <MtTTC V="089.89"/>
+              <CodEtGeo V="03"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2020-01-07"/>
+              <RefTiers V="048595478174"/>
+              <CatTiers V="01"/>
+              <TypTiers V="15"/>
+              <Civilite V="1So"/>
+              <Nom V="Jw0QlfwZ6n"/>
+              <Prenom V="f1M2unb1Ue"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="l4Xor6ziXa0TXgWmcb3J"/>
+              <CP V="75084"/>
+              <Ville V="x90wyKZQ3uw0s3q"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2003-03-07"/>
+              <RefTiers V="693737640813"/>
+              <CatTiers V="01"/>
+              <TypTiers V="06"/>
+              <Civilite V="M2p"/>
+              <Nom V="56MGPiNZ3g"/>
+              <Prenom V="eAVngmGzNs"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="zu0Axf5hj0keHitBo5uD"/>
+              <CP V="27043"/>
+              <Ville V="lP3iYoICMGvQMhN"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310439"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2021-10-04"/>
+          <FinFact V="2000-09-26"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2011-11-12"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="IQRvrmwXAQdRZ1kb81SjZmkgsYE4uViCBvaVnYwP4yMVWKWIIy"/>
+              <Nature V="109881"/>
+              <MtTTC V="525.83"/>
+              <CodEtGeo V="76"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2011-12-29"/>
+              <RefTiers V="790809297482"/>
+              <CatTiers V="01"/>
+              <TypTiers V="84"/>
+              <Civilite V="U9b"/>
+              <Nom V="jPj2LLYV75"/>
+              <Prenom V="hTecfIgM7Z"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="AHhp4KVAINbpYtL0WwUN"/>
+              <CP V="38082"/>
+              <Ville V="FlyP8RgAxxoqc32"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2019-01-30"/>
+              <RefTiers V="307207453446"/>
+              <CatTiers V="01"/>
+              <TypTiers V="08"/>
+              <Civilite V="IMe"/>
+              <Nom V="JnIff6b0Dh"/>
+              <Prenom V="DLiAIuDaDM"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="CQQA49MvU1ENUXJhqEO7"/>
+              <CP V="89984"/>
+              <Ville V="KyPrEUFXzzJMrGi"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310440"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2008-02-24"/>
+          <FinFact V="2008-04-25"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2017-03-09"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="9STd4ES6SzbMYvlocxw6xFFjZoj9T9j8KrBrYPa3lAkCGyZo4g"/>
+              <Nature V="073197"/>
+              <MtTTC V="789.18"/>
+              <CodEtGeo V="95"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2016-05-19"/>
+              <RefTiers V="109813284519"/>
+              <CatTiers V="01"/>
+              <TypTiers V="35"/>
+              <Civilite V="vgS"/>
+              <Nom V="z01IeDA1Fn"/>
+              <Prenom V="MF41fY1btl"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="Amevtqd0LqcW67NbCdIK"/>
+              <CP V="35543"/>
+              <Ville V="KIFMFP8EamQ6l3w"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2016-08-23"/>
+              <RefTiers V="668138075561"/>
+              <CatTiers V="01"/>
+              <TypTiers V="83"/>
+              <Civilite V="1J1"/>
+              <Nom V="p0Q2g3YV6L"/>
+              <Prenom V="CKAJwuvbH6"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="tafesDUH73MuK1dEhcjn"/>
+              <CP V="39443"/>
+              <Ville V="Kpe2jFR0CTp51wD"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310441"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2015-05-02"/>
+          <FinFact V="2004-01-05"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2006-02-11"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="llfJrtvueBluFoMHEWteQdUI1zb7JqwYSrth4Ux0YTRVGA390t"/>
+              <Nature V="831836"/>
+              <MtTTC V="925.44"/>
+              <CodEtGeo V="09"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2009-05-27"/>
+              <RefTiers V="548519990468"/>
+              <CatTiers V="01"/>
+              <TypTiers V="27"/>
+              <Civilite V="rfG"/>
+              <Nom V="qPLD78uF2B"/>
+              <Prenom V="Ed2Jq0z3oW"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="0NNM2v4xGOoKIQs2SCqL"/>
+              <CP V="23206"/>
+              <Ville V="5vwdVaL8CE0z7Dx"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2012-09-07"/>
+              <RefTiers V="195799134365"/>
+              <CatTiers V="01"/>
+              <TypTiers V="05"/>
+              <Civilite V="Cho"/>
+              <Nom V="NNiv6ly03i"/>
+              <Prenom V="9L3KW1ACNw"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="y4wYiSPtjxhGQwLRgfHr"/>
+              <CP V="14669"/>
+              <Ville V="OlthQBx0dfRTkR5"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310442"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2022-01-10"/>
+          <FinFact V="2017-10-24"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2008-03-09"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="1hdD3R0tmPqI96eSuuAJtfmHVfWAqxdY57HiiSF5t6bfp3GFmj"/>
+              <Nature V="098027"/>
+              <MtTTC V="622.68"/>
+              <CodEtGeo V="21"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2005-10-25"/>
+              <RefTiers V="786618006490"/>
+              <CatTiers V="01"/>
+              <TypTiers V="10"/>
+              <Civilite V="rSn"/>
+              <Nom V="WwQ9tLj7f7"/>
+              <Prenom V="6A8xj4MqCq"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="Swk2KXiG1kaB9pbB1Ndf"/>
+              <CP V="62570"/>
+              <Ville V="zsUcFQEUukpueLS"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2001-04-12"/>
+              <RefTiers V="740132917630"/>
+              <CatTiers V="01"/>
+              <TypTiers V="84"/>
+              <Civilite V="7SE"/>
+              <Nom V="UV5szlzXv1"/>
+              <Prenom V="hnxGzgZyn2"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="amXCqUkp0Yrm6VJk4HBu"/>
+              <CP V="88307"/>
+              <Ville V="Snkg1ee0WfrajrO"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310443"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2017-06-10"/>
+          <FinFact V="2019-09-19"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2013-05-31"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="oCEz1flqP5YAIkcEwK3zqBHg6GbhEJkLIVJU9iSZdRDnIahRBt"/>
+              <Nature V="046615"/>
+              <MtTTC V="202.09"/>
+              <CodEtGeo V="43"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2002-11-14"/>
+              <RefTiers V="727877351744"/>
+              <CatTiers V="01"/>
+              <TypTiers V="64"/>
+              <Civilite V="lDI"/>
+              <Nom V="N75dhgWnVg"/>
+              <Prenom V="R3PK2WArup"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="TTsgcgLo1EE2QUxaJw1K"/>
+              <CP V="49133"/>
+              <Ville V="3NYruNnVcSP6ZNH"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2015-03-01"/>
+              <RefTiers V="988720933151"/>
+              <CatTiers V="01"/>
+              <TypTiers V="16"/>
+              <Civilite V="BpL"/>
+              <Nom V="CqHPjC4d32"/>
+              <Prenom V="wS7SDV4P1u"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="AdaJOKICf2zVx2gF2Ers"/>
+              <CP V="04366"/>
+              <Ville V="dXkyHiViiACehQp"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310444"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2004-11-03"/>
+          <FinFact V="2013-09-27"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2014-05-23"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="2En1oRBesYJnxhQkJBTpCHUp0Tb2laTKfSu1pIZYivFAUrdFtC"/>
+              <Nature V="629030"/>
+              <MtTTC V="624.39"/>
+              <CodEtGeo V="41"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2014-09-11"/>
+              <RefTiers V="671158833516"/>
+              <CatTiers V="01"/>
+              <TypTiers V="62"/>
+              <Civilite V="Qus"/>
+              <Nom V="arnax1uqna"/>
+              <Prenom V="rbC1EPEn6q"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="sRZBZjYtcvK8Fim2BQEQ"/>
+              <CP V="96384"/>
+              <Ville V="7xaXTOr6wAnvMq3"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2004-07-30"/>
+              <RefTiers V="180325732310"/>
+              <CatTiers V="01"/>
+              <TypTiers V="15"/>
+              <Civilite V="kd0"/>
+              <Nom V="W9ugidIdx0"/>
+              <Prenom V="bmJlGB3n9X"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="zSYe9K0IQ2NbUbgyLu7t"/>
+              <CP V="84010"/>
+              <Ville V="4BNGfIsxUIdJKH6"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310445"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2003-04-04"/>
+          <FinFact V="2005-05-16"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2006-01-22"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="1iUPjgAQwwqRBbWuO4wVa3niSvvQ28Y7XWho9Uck3WRD1rKvJj"/>
+              <Nature V="230029"/>
+              <MtTTC V="836.55"/>
+              <CodEtGeo V="51"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2005-06-13"/>
+              <RefTiers V="833193543346"/>
+              <CatTiers V="01"/>
+              <TypTiers V="67"/>
+              <Civilite V="qj0"/>
+              <Nom V="N2YI6snqhH"/>
+              <Prenom V="sGmfKFOFsC"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="T6mYQDugmkz5J5Yeu8OQ"/>
+              <CP V="28764"/>
+              <Ville V="EqtgofuIdIWiqzE"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2008-07-11"/>
+              <RefTiers V="381000647560"/>
+              <CatTiers V="01"/>
+              <TypTiers V="14"/>
+              <Civilite V="oE2"/>
+              <Nom V="c3WghhtJBs"/>
+              <Prenom V="UeS3BLfOHV"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="ruwrPEN8js3klyhxJ1XL"/>
+              <CP V="65412"/>
+              <Ville V="edPaNiqslrk7vaY"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310446"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2004-09-28"/>
+          <FinFact V="2013-10-21"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2007-04-07"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="zLJA98hqKs2MuzKPOSBPn7h8iuLdszKpssALtTDBWAAnv6rtls"/>
+              <Nature V="505386"/>
+              <MtTTC V="322.57"/>
+              <CodEtGeo V="15"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2023-11-11"/>
+              <RefTiers V="430946548891"/>
+              <CatTiers V="01"/>
+              <TypTiers V="50"/>
+              <Civilite V="IQe"/>
+              <Nom V="HjMxKsy5VH"/>
+              <Prenom V="bbfOUQ4Fwu"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="TKJWHGAaf8lT7FlO8Az2"/>
+              <CP V="66946"/>
+              <Ville V="Kkx0El7RmLRFkla"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2019-05-06"/>
+              <RefTiers V="602912766137"/>
+              <CatTiers V="01"/>
+              <TypTiers V="85"/>
+              <Civilite V="kTS"/>
+              <Nom V="fVeLFYuqhU"/>
+              <Prenom V="ckxzV7XTFG"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="dCtT2sHZ3DExxzKnfSYx"/>
+              <CP V="09965"/>
+              <Ville V="6imTL8rYfdStDfk"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310447"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2016-08-25"/>
+          <FinFact V="2014-11-15"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2013-06-22"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="qzSzoFCmxSZFRDbMiccMbNs1IV55VICj0UTgZuOiUkLZ2wxXUW"/>
+              <Nature V="207839"/>
+              <MtTTC V="509.43"/>
+              <CodEtGeo V="76"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2009-04-14"/>
+              <RefTiers V="496016703272"/>
+              <CatTiers V="01"/>
+              <TypTiers V="83"/>
+              <Civilite V="sLG"/>
+              <Nom V="6zzsNMleFB"/>
+              <Prenom V="3phsw0yQk6"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="4vZMvqFrblUaFPGGjcP8"/>
+              <CP V="93556"/>
+              <Ville V="VP3g5yLV0lagro8"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2008-10-02"/>
+              <RefTiers V="494722043231"/>
+              <CatTiers V="01"/>
+              <TypTiers V="93"/>
+              <Civilite V="y1i"/>
+              <Nom V="QOX3CkpJCd"/>
+              <Prenom V="YiJ5vwDXgT"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="EWqxepkDROOPctgUybc2"/>
+              <CP V="34292"/>
+              <Ville V="2cIA2b51FJ5ru2k"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310448"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2000-05-07"/>
+          <FinFact V="2002-08-26"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2022-07-08"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="aGz6FN09rSoerdWcWYl2Jg5R68yPHyiREoq4ChhD51PHfENcFH"/>
+              <Nature V="635691"/>
+              <MtTTC V="084.78"/>
+              <CodEtGeo V="11"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2000-10-16"/>
+              <RefTiers V="255992158550"/>
+              <CatTiers V="01"/>
+              <TypTiers V="73"/>
+              <Civilite V="p6F"/>
+              <Nom V="Pyom35TRtg"/>
+              <Prenom V="XcNP6isPdx"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="FyCVaBCHwUf6Fbmu8uOc"/>
+              <CP V="31625"/>
+              <Ville V="qRUVTywT89K2o08"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2001-10-25"/>
+              <RefTiers V="172469098321"/>
+              <CatTiers V="01"/>
+              <TypTiers V="43"/>
+              <Civilite V="PXq"/>
+              <Nom V="bVAC4rpaHv"/>
+              <Prenom V="FiFkgurgTb"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="Ps94iDGg6fyUuPb5ttte"/>
+              <CP V="96083"/>
+              <Ville V="Q1lEb9Jcr2xqKaW"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310449"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2019-04-14"/>
+          <FinFact V="2007-05-12"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2015-12-12"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="MYuqb86b3udyvLKHNgTlMmISMEgudseNZ8lw84B2hEODxcjrei"/>
+              <Nature V="702608"/>
+              <MtTTC V="378.54"/>
+              <CodEtGeo V="32"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2006-03-05"/>
+              <RefTiers V="643197841643"/>
+              <CatTiers V="01"/>
+              <TypTiers V="90"/>
+              <Civilite V="eXX"/>
+              <Nom V="1pae7CUEee"/>
+              <Prenom V="opfupiyh6n"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="dlyp79W9MSOV1xW1VPXN"/>
+              <CP V="41101"/>
+              <Ville V="hwvZdFd7bmFXchv"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2023-07-19"/>
+              <RefTiers V="354493661042"/>
+              <CatTiers V="01"/>
+              <TypTiers V="03"/>
+              <Civilite V="8fi"/>
+              <Nom V="FB07dTg26k"/>
+              <Prenom V="pTBPL1vcvp"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="p6bGUUr0GK4JZNn9lBO1"/>
+              <CP V="60109"/>
+              <Ville V="PAAkAfPcpeqJju9"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310450"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2021-04-10"/>
+          <FinFact V="2003-07-13"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2019-01-23"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="TDyzhjPBqrVgoLFofeaeEu49d0YwvPnSEPC7hAZkMLSkHi37oh"/>
+              <Nature V="941675"/>
+              <MtTTC V="200.48"/>
+              <CodEtGeo V="07"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2013-07-29"/>
+              <RefTiers V="858286550268"/>
+              <CatTiers V="01"/>
+              <TypTiers V="76"/>
+              <Civilite V="2Gg"/>
+              <Nom V="Agpwo26ANG"/>
+              <Prenom V="Jm3YjiWiJS"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="QbSLXhixfma7jyVGmwI7"/>
+              <CP V="57445"/>
+              <Ville V="vabSEhpurtNLmkk"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2013-03-26"/>
+              <RefTiers V="151488613752"/>
+              <CatTiers V="01"/>
+              <TypTiers V="25"/>
+              <Civilite V="SiV"/>
+              <Nom V="ie6bc8KGzo"/>
+              <Prenom V="vXg7Hwhg9k"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="ENWLTtEH2KUZAtex5nPX"/>
+              <CP V="70309"/>
+              <Ville V="XLMECOXUwUSeqQ4"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310451"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2008-10-07"/>
+          <FinFact V="2018-04-22"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2006-12-22"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="rFBbOuOc62wmV52yKEC41pN8L3YHntRHI0QuBW32xyUWtdDpG9"/>
+              <Nature V="035615"/>
+              <MtTTC V="796.23"/>
+              <CodEtGeo V="16"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2001-05-06"/>
+              <RefTiers V="233402157893"/>
+              <CatTiers V="01"/>
+              <TypTiers V="62"/>
+              <Civilite V="oQo"/>
+              <Nom V="qV8XoYQ2Lo"/>
+              <Prenom V="cf7gzcf2RR"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="qWWRb3TLZ8L27PXP1t1x"/>
+              <CP V="80115"/>
+              <Ville V="BS93zl8D3DxWv2p"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2004-07-05"/>
+              <RefTiers V="795988953371"/>
+              <CatTiers V="01"/>
+              <TypTiers V="11"/>
+              <Civilite V="G59"/>
+              <Nom V="1VADaLwM6a"/>
+              <Prenom V="ZZHswOk8F8"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="KF6A3CzQbsrmjRP4n4dE"/>
+              <CP V="16700"/>
+              <Ville V="83aDxVpI9xx8m17"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310452"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2016-01-08"/>
+          <FinFact V="2008-03-10"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2011-12-29"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="uOXKO053mpEojpvJxTQXkBaWanOKcXx1l85yEUs41iaGpVULK1"/>
+              <Nature V="247018"/>
+              <MtTTC V="010.67"/>
+              <CodEtGeo V="79"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2022-01-28"/>
+              <RefTiers V="055879889227"/>
+              <CatTiers V="01"/>
+              <TypTiers V="78"/>
+              <Civilite V="ndU"/>
+              <Nom V="J7xwnfA8M8"/>
+              <Prenom V="KYxmG0xks3"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="ILo6G6nunbmBQEDOXDKI"/>
+              <CP V="88116"/>
+              <Ville V="6vPQvOA1X0PDWYE"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2021-07-03"/>
+              <RefTiers V="393295325775"/>
+              <CatTiers V="01"/>
+              <TypTiers V="08"/>
+              <Civilite V="4dL"/>
+              <Nom V="JSrVVEKUBs"/>
+              <Prenom V="96W4xWlWFn"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="S12bmHEGavPxTs2mTZhy"/>
+              <CP V="94813"/>
+              <Ville V="DcnTYQX2Y9pN5fa"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+      <Piece>
+        <BlocPiece>
+          <IdPce V="310453"/>
+          <TypPce V="01"/>
+          <NatPce V="01"/>
+          <CatPce V="1"/>
+          <DebFact V="2009-02-18"/>
+          <FinFact V="2016-12-22"/>
+          <EtatPce V="02"/>
+          <DtePcePec V="2000-11-25"/>
+        </BlocPiece>
+        <LigneDePiece>
+          <BlocLignePiece>
+            <InfoLignePiece>
+              <IdLigne V="1"/>
+              <ObjLignePce V="QuQlcEosiAXpBTUbZdtkwA8IydAAxpdNP9MomPbwbFpFUvRGMp"/>
+              <Nature V="380779"/>
+              <MtTTC V="286.31"/>
+              <CodEtGeo V="51"/>
+            </InfoLignePiece>
+          </BlocLignePiece>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2005-07-26"/>
+              <RefTiers V="072496478037"/>
+              <CatTiers V="01"/>
+              <TypTiers V="65"/>
+              <Civilite V="xlN"/>
+              <Nom V="6atlzqlj0o"/>
+              <Prenom V="YK53K8v4J0"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="2gH7PyeQaDAYP6kyUYwK"/>
+              <CP V="80943"/>
+              <Ville V="gNRFsVWDST7o11L"/>
+            </Adresse>
+          </Tiers>
+          <Tiers>
+            <InfoTiers>
+              <DteMalade V="2002-11-22"/>
+              <RefTiers V="432096768031"/>
+              <CatTiers V="01"/>
+              <TypTiers V="87"/>
+              <Civilite V="Z2q"/>
+              <Nom V="lHi6GB5Qll"/>
+              <Prenom V="3s51I5BKmJ"/>
+            </InfoTiers>
+            <Adresse>
+              <Adr1 V="E6VYyHM1Uh9v5C2DBVSg"/>
+              <CP V="54254"/>
+              <Ville V="2c8f9tgpaWOr8kq"/>
+            </Adresse>
+          </Tiers>
+        </LigneDePiece>
+      </Piece>
+    </Bordereau>
+  </PES_TIPI_Recette>
+</n:PES_Retour>

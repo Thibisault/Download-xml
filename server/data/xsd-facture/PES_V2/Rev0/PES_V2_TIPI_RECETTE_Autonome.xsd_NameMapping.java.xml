@@ -1,0 +1,870 @@
+<?xml version="1.0"?>
+<MappingSchema Language="Java" CollectionMapping="Original" NamespacePrefix="">
+  <Class Name="Base_Alphanum2" LongName="Base_Alphanum2" MappedClassColName="Base_Alphanum2Col" MappedClassName="Base_Alphanum2">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Alphanum3" LongName="Base_Alphanum3" MappedClassColName="Base_Alphanum3Col" MappedClassName="Base_Alphanum3">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Annee" LongName="Base_Annee" MappedClassColName="Base_AnneeCol" MappedClassName="Base_Annee">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Date" LongName="Base_Date" MappedClassColName="Base_DateCol" MappedClassName="Base_Date">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Montant" LongName="Base_Montant" MappedClassColName="Base_MontantCol" MappedClassName="Base_Montant">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Num14" LongName="Base_Num14" MappedClassColName="Base_Num14Col" MappedClassName="Base_Num14">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Num2" LongName="Base_Num2" MappedClassColName="Base_Num2Col" MappedClassName="Base_Num2">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Num20" LongName="Base_Num20" MappedClassColName="Base_Num20Col" MappedClassName="Base_Num20">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Num5" LongName="Base_Num5" MappedClassColName="Base_Num5Col" MappedClassName="Base_Num5">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Num6" LongName="Base_Num6" MappedClassColName="Base_Num6Col" MappedClassName="Base_Num6">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Num7" LongName="Base_Num7" MappedClassColName="Base_Num7Col" MappedClassName="Base_Num7">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Num8" LongName="Base_Num8" MappedClassColName="Base_Num8Col" MappedClassName="Base_Num8">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Texte10" LongName="Base_Texte10" MappedClassColName="Base_Texte10Col" MappedClassName="Base_Texte10">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Texte100" LongName="Base_Texte100" MappedClassColName="Base_Texte100Col" MappedClassName="Base_Texte100">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Texte12" LongName="Base_Texte12" MappedClassColName="Base_Texte12Col" MappedClassName="Base_Texte12">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Texte160" LongName="Base_Texte160" MappedClassColName="Base_Texte160Col" MappedClassName="Base_Texte160">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Texte30" LongName="Base_Texte30" MappedClassColName="Base_Texte30Col" MappedClassName="Base_Texte30">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Texte32" LongName="Base_Texte32" MappedClassColName="Base_Texte32Col" MappedClassName="Base_Texte32">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Texte38" LongName="Base_Texte38" MappedClassColName="Base_Texte38Col" MappedClassName="Base_Texte38">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Texte5" LongName="Base_Texte5" MappedClassColName="Base_Texte5Col" MappedClassName="Base_Texte5">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="Base_Texte7" LongName="Base_Texte7" MappedClassColName="Base_Texte7Col" MappedClassName="Base_Texte7">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV" FormatOverride="">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="PES_Retour" LongName="PES_Retour" MappedClassColName="PES_RetourCol" MappedClassName="PES_Retour">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="Enveloppe" DefaultValue="" MappedIsValidMember="_isValidEnveloppe" MappedSetValidName="setValidEnveloppe" MappedIsValidName="isValidEnveloppe" MappedIsNilMember="_isNilEnveloppe" MappedSetNilName="setNilEnveloppe" MappedIsNilName="isNilEnveloppe" MappedMemberName="_enveloppe" MappedDisplayName="Enveloppe" MappedSetterName="setEnveloppe" MappedGetterName="getEnveloppe">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="EnTetePES" DefaultValue="" MappedIsValidMember="_isValidEnTetePES" MappedSetValidName="setValidEnTetePES" MappedIsValidName="isValidEnTetePES" MappedIsNilMember="_isNilEnTetePES" MappedSetNilName="setNilEnTetePES" MappedIsNilName="isNilEnTetePES" MappedMemberName="_enTetePES" MappedDisplayName="EnTetePES" MappedSetterName="setEnTetePES" MappedGetterName="getEnTetePES">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="PES_TIPI_Recette" DefaultValue="" MappedIsValidMember="_isValidPES_TIPI_Recette" MappedSetValidName="setValidPES_TIPI_Recette" MappedIsValidName="isValidPES_TIPI_Recette" MappedIsNilMember="_isNilPES_TIPI_Recette" MappedSetNilName="setNilPES_TIPI_Recette" MappedIsNilName="isNilPES_TIPI_Recette" MappedMemberName="_pES_TIPI_Recette" MappedDisplayName="PES_TIPI_Recette" MappedSetterName="setPES_TIPI_Recette" MappedGetterName="getPES_TIPI_Recette">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TAdresse_TIPI" LongName="TAdresse_TIPI" MappedClassColName="TAdresse_TIPICol" MappedClassName="TAdresse_TIPI">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="Adr1" DefaultValue="" MappedIsValidMember="_isValidAdr1" MappedSetValidName="setValidAdr1" MappedIsValidName="isValidAdr1" MappedIsNilMember="_isNilAdr1" MappedSetNilName="setNilAdr1" MappedIsNilName="isNilAdr1" MappedMemberName="_adr1" MappedDisplayName="Adr1" MappedSetterName="setAdr1" MappedGetterName="getAdr1">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Adr2" DefaultValue="" MappedIsValidMember="_isValidAdr2" MappedSetValidName="setValidAdr2" MappedIsValidName="isValidAdr2" MappedIsNilMember="_isNilAdr2" MappedSetNilName="setNilAdr2" MappedIsNilName="isNilAdr2" MappedMemberName="_adr2" MappedDisplayName="Adr2" MappedSetterName="setAdr2" MappedGetterName="getAdr2">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Adr3" DefaultValue="" MappedIsValidMember="_isValidAdr3" MappedSetValidName="setValidAdr3" MappedIsValidName="isValidAdr3" MappedIsNilMember="_isNilAdr3" MappedSetNilName="setNilAdr3" MappedIsNilName="isNilAdr3" MappedMemberName="_adr3" MappedDisplayName="Adr3" MappedSetterName="setAdr3" MappedGetterName="getAdr3">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="CP" DefaultValue="" MappedIsValidMember="_isValidCP" MappedSetValidName="setValidCP" MappedIsValidName="isValidCP" MappedIsNilMember="_isNilCP" MappedSetNilName="setNilCP" MappedIsNilName="isNilCP" MappedMemberName="_cP" MappedDisplayName="CP" MappedSetterName="setCP" MappedGetterName="getCP">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Ville" DefaultValue="" MappedIsValidMember="_isValidVille" MappedSetValidName="setValidVille" MappedIsValidName="isValidVille" MappedIsNilMember="_isNilVille" MappedSetNilName="setNilVille" MappedIsNilName="isNilVille" MappedMemberName="_ville" MappedDisplayName="Ville" MappedSetterName="setVille" MappedGetterName="getVille">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TBlocBordereau_TIPI" LongName="TBlocBordereau_TIPI" MappedClassColName="TBlocBordereau_TIPICol" MappedClassName="TBlocBordereau_TIPI">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="Exer" DefaultValue="" MappedIsValidMember="_isValidExer" MappedSetValidName="setValidExer" MappedIsValidName="isValidExer" MappedIsNilMember="_isNilExer" MappedSetNilName="setNilExer" MappedIsNilName="isNilExer" MappedMemberName="_exer" MappedDisplayName="Exer" MappedSetterName="setExer" MappedGetterName="getExer">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="IdBord" DefaultValue="" MappedIsValidMember="_isValidIdBord" MappedSetValidName="setValidIdBord" MappedIsValidName="isValidIdBord" MappedIsNilMember="_isNilIdBord" MappedSetNilName="setNilIdBord" MappedIsNilName="isNilIdBord" MappedMemberName="_idBord" MappedDisplayName="IdBord" MappedSetterName="setIdBord" MappedGetterName="getIdBord">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="TypBord" DefaultValue="" MappedIsValidMember="_isValidTypBord" MappedSetValidName="setValidTypBord" MappedIsValidName="isValidTypBord" MappedIsNilMember="_isNilTypBord" MappedSetNilName="setNilTypBord" MappedIsNilName="isNilTypBord" MappedMemberName="_typBord" MappedDisplayName="TypBord" MappedSetterName="setTypBord" MappedGetterName="getTypBord">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="NbrePce" DefaultValue="" MappedIsValidMember="_isValidNbrePce" MappedSetValidName="setValidNbrePce" MappedIsValidName="isValidNbrePce" MappedIsNilMember="_isNilNbrePce" MappedSetNilName="setNilNbrePce" MappedIsNilName="isNilNbrePce" MappedMemberName="_nbrePce" MappedDisplayName="NbrePce" MappedSetterName="setNbrePce" MappedGetterName="getNbrePce">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TBlocLignePiece_TIPI" LongName="TBlocLignePiece_TIPI" MappedClassColName="TBlocLignePiece_TIPICol" MappedClassName="TBlocLignePiece_TIPI">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="InfoLignePiece" DefaultValue="" MappedIsValidMember="_isValidInfoLignePiece" MappedSetValidName="setValidInfoLignePiece" MappedIsValidName="isValidInfoLignePiece" MappedIsNilMember="_isNilInfoLignePiece" MappedSetNilName="setNilInfoLignePiece" MappedIsNilName="isNilInfoLignePiece" MappedMemberName="_infoLignePiece" MappedDisplayName="InfoLignePiece" MappedSetterName="setInfoLignePiece" MappedGetterName="getInfoLignePiece">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TBlocPiece_TIPI" LongName="TBlocPiece_TIPI" MappedClassColName="TBlocPiece_TIPICol" MappedClassName="TBlocPiece_TIPI">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="CodServ" DefaultValue="" MappedIsValidMember="_isValidCodServ" MappedSetValidName="setValidCodServ" MappedIsValidName="isValidCodServ" MappedIsNilMember="_isNilCodServ" MappedSetNilName="setNilCodServ" MappedIsNilName="isNilCodServ" MappedMemberName="_codServ" MappedDisplayName="CodServ" MappedSetterName="setCodServ" MappedGetterName="getCodServ">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="CodProd" DefaultValue="" MappedIsValidMember="_isValidCodProd" MappedSetValidName="setValidCodProd" MappedIsValidName="isValidCodProd" MappedIsNilMember="_isNilCodProd" MappedSetNilName="setNilCodProd" MappedIsNilName="isNilCodProd" MappedMemberName="_codProd" MappedDisplayName="CodProd" MappedSetterName="setCodProd" MappedGetterName="getCodProd">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="IdPce" DefaultValue="" MappedIsValidMember="_isValidIdPce" MappedSetValidName="setValidIdPce" MappedIsValidName="isValidIdPce" MappedIsNilMember="_isNilIdPce" MappedSetNilName="setNilIdPce" MappedIsNilName="isNilIdPce" MappedMemberName="_idPce" MappedDisplayName="IdPce" MappedSetterName="setIdPce" MappedGetterName="getIdPce">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="TypPce" DefaultValue="" MappedIsValidMember="_isValidTypPce" MappedSetValidName="setValidTypPce" MappedIsValidName="isValidTypPce" MappedIsNilMember="_isNilTypPce" MappedSetNilName="setNilTypPce" MappedIsNilName="isNilTypPce" MappedMemberName="_typPce" MappedDisplayName="TypPce" MappedSetterName="setTypPce" MappedGetterName="getTypPce">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="NatPce" DefaultValue="" MappedIsValidMember="_isValidNatPce" MappedSetValidName="setValidNatPce" MappedIsValidName="isValidNatPce" MappedIsNilMember="_isNilNatPce" MappedSetNilName="setNilNatPce" MappedIsNilName="isNilNatPce" MappedMemberName="_natPce" MappedDisplayName="NatPce" MappedSetterName="setNatPce" MappedGetterName="getNatPce">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="CatPce" DefaultValue="" MappedIsValidMember="_isValidCatPce" MappedSetValidName="setValidCatPce" MappedIsValidName="isValidCatPce" MappedIsNilMember="_isNilCatPce" MappedSetNilName="setNilCatPce" MappedIsNilName="isNilCatPce" MappedMemberName="_catPce" MappedDisplayName="CatPce" MappedSetterName="setCatPce" MappedGetterName="getCatPce">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="DteAsp" DefaultValue="" MappedIsValidMember="_isValidDteAsp" MappedSetValidName="setValidDteAsp" MappedIsValidName="isValidDteAsp" MappedIsNilMember="_isNilDteAsp" MappedSetNilName="setNilDteAsp" MappedIsNilName="isNilDteAsp" MappedMemberName="_dteAsp" MappedDisplayName="DteAsp" MappedSetterName="setDteAsp" MappedGetterName="getDteAsp">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="DebFact" DefaultValue="" MappedIsValidMember="_isValidDebFact" MappedSetValidName="setValidDebFact" MappedIsValidName="isValidDebFact" MappedIsNilMember="_isNilDebFact" MappedSetNilName="setNilDebFact" MappedIsNilName="isNilDebFact" MappedMemberName="_debFact" MappedDisplayName="DebFact" MappedSetterName="setDebFact" MappedGetterName="getDebFact">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="FinFact" DefaultValue="" MappedIsValidMember="_isValidFinFact" MappedSetValidName="setValidFinFact" MappedIsValidName="isValidFinFact" MappedIsNilMember="_isNilFinFact" MappedSetNilName="setNilFinFact" MappedIsNilName="isNilFinFact" MappedMemberName="_finFact" MappedDisplayName="FinFact" MappedSetterName="setFinFact" MappedGetterName="getFinFact">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="EtatPce" DefaultValue="" MappedIsValidMember="_isValidEtatPce" MappedSetValidName="setValidEtatPce" MappedIsValidName="isValidEtatPce" MappedIsNilMember="_isNilEtatPce" MappedSetNilName="setNilEtatPce" MappedIsNilName="isNilEtatPce" MappedMemberName="_etatPce" MappedDisplayName="EtatPce" MappedSetterName="setEtatPce" MappedGetterName="getEtatPce">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="DtePcePec" DefaultValue="" MappedIsValidMember="_isValidDtePcePec" MappedSetValidName="setValidDtePcePec" MappedIsValidName="isValidDtePcePec" MappedIsNilMember="_isNilDtePcePec" MappedSetNilName="setNilDtePcePec" MappedIsNilName="isNilDtePcePec" MappedMemberName="_dtePcePec" MappedDisplayName="DtePcePec" MappedSetterName="setDtePcePec" MappedGetterName="getDtePcePec">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TBordereau_TIPI" LongName="TBordereau_TIPI" MappedClassColName="TBordereau_TIPICol" MappedClassName="TBordereau_TIPI">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="BlocBordereau" DefaultValue="" MappedIsValidMember="_isValidBlocBordereau" MappedSetValidName="setValidBlocBordereau" MappedIsValidName="isValidBlocBordereau" MappedIsNilMember="_isNilBlocBordereau" MappedSetNilName="setNilBlocBordereau" MappedIsNilName="isNilBlocBordereau" MappedMemberName="_blocBordereau" MappedDisplayName="BlocBordereau" MappedSetterName="setBlocBordereau" MappedGetterName="getBlocBordereau">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Piece" DefaultValue="" MappedIsValidMember="_isValidPiece" MappedSetValidName="setValidPiece" MappedIsValidName="isValidPiece" MappedIsNilMember="_isNilPiece" MappedSetNilName="setNilPiece" MappedIsNilName="isNilPiece" MappedMemberName="_piece" MappedDisplayName="Piece" MappedSetterName="setPiece" MappedGetterName="getPiece">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TCarteVisite" LongName="TCarteVisite" MappedClassColName="TCarteVisiteCol" MappedClassName="TCarteVisite">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="Sigle" DefaultValue="" MappedIsValidMember="_isValidSigle" MappedSetValidName="setValidSigle" MappedIsValidName="isValidSigle" MappedIsNilMember="_isNilSigle" MappedSetNilName="setNilSigle" MappedIsNilName="isNilSigle" MappedMemberName="_sigle" MappedDisplayName="Sigle" MappedSetterName="setSigle" MappedGetterName="getSigle">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Adresse" DefaultValue="" MappedIsValidMember="_isValidAdresse" MappedSetValidName="setValidAdresse" MappedIsValidName="isValidAdresse" MappedIsNilMember="_isNilAdresse" MappedSetNilName="setNilAdresse" MappedIsNilName="isNilAdresse" MappedMemberName="_adresse" MappedDisplayName="Adresse" MappedSetterName="setAdresse" MappedGetterName="getAdresse">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TCatPce" LongName="TCatPce" MappedClassColName="TCatPceCol" MappedClassName="TCatPce">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Enum Name="V" MappedEnumColName="TCatPce_VCol" MappedEnumName="TCatPce_V">
+      <Value Value="1" MappedValue="n1" />
+      <Value Value="2" MappedValue="n2" />
+      <Value Value="3" MappedValue="n3" />
+      <Value Value="4" MappedValue="n4" />
+    </Enum>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TCatTiers" LongName="TCatTiers" MappedClassColName="TCatTiersCol" MappedClassName="TCatTiers">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Enum Name="V" MappedEnumColName="TCatTiers_VCol" MappedEnumName="TCatTiers_V">
+      <Value Value="01" MappedValue="n01" />
+      <Value Value="20" MappedValue="n20" />
+      <Value Value="21" MappedValue="n21" />
+      <Value Value="22" MappedValue="n22" />
+      <Value Value="23" MappedValue="n23" />
+      <Value Value="24" MappedValue="n24" />
+      <Value Value="25" MappedValue="n25" />
+      <Value Value="26" MappedValue="n26" />
+      <Value Value="27" MappedValue="n27" />
+      <Value Value="28" MappedValue="n28" />
+      <Value Value="29" MappedValue="n29" />
+      <Value Value="50" MappedValue="n50" />
+      <Value Value="60" MappedValue="n60" />
+      <Value Value="61" MappedValue="n61" />
+      <Value Value="62" MappedValue="n62" />
+      <Value Value="63" MappedValue="n63" />
+      <Value Value="64" MappedValue="n64" />
+      <Value Value="65" MappedValue="n65" />
+      <Value Value="70" MappedValue="n70" />
+      <Value Value="71" MappedValue="n71" />
+      <Value Value="72" MappedValue="n72" />
+      <Value Value="73" MappedValue="n73" />
+      <Value Value="74" MappedValue="n74" />
+    </Enum>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TEnTetePES" LongName="TEnTetePES" MappedClassColName="TEnTetePESCol" MappedClassName="TEnTetePES">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="DteStr" DefaultValue="" MappedIsValidMember="_isValidDteStr" MappedSetValidName="setValidDteStr" MappedIsValidName="isValidDteStr" MappedIsNilMember="_isNilDteStr" MappedSetNilName="setNilDteStr" MappedIsNilName="isNilDteStr" MappedMemberName="_dteStr" MappedDisplayName="DteStr" MappedSetterName="setDteStr" MappedGetterName="getDteStr">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="IdPost" DefaultValue="" MappedIsValidMember="_isValidIdPost" MappedSetValidName="setValidIdPost" MappedIsValidName="isValidIdPost" MappedIsNilMember="_isNilIdPost" MappedSetNilName="setNilIdPost" MappedIsNilName="isNilIdPost" MappedMemberName="_idPost" MappedDisplayName="IdPost" MappedSetterName="setIdPost" MappedGetterName="getIdPost">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="LibellePoste" DefaultValue="" MappedIsValidMember="_isValidLibellePoste" MappedSetValidName="setValidLibellePoste" MappedIsValidName="isValidLibellePoste" MappedIsNilMember="_isNilLibellePoste" MappedSetNilName="setNilLibellePoste" MappedIsNilName="isNilLibellePoste" MappedMemberName="_libellePoste" MappedDisplayName="LibellePoste" MappedSetterName="setLibellePoste" MappedGetterName="getLibellePoste">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="IdColl" DefaultValue="" MappedIsValidMember="_isValidIdColl" MappedSetValidName="setValidIdColl" MappedIsValidName="isValidIdColl" MappedIsNilMember="_isNilIdColl" MappedSetNilName="setNilIdColl" MappedIsNilName="isNilIdColl" MappedMemberName="_idColl" MappedDisplayName="IdColl" MappedSetterName="setIdColl" MappedGetterName="getIdColl">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="FinJur" DefaultValue="" MappedIsValidMember="_isValidFinJur" MappedSetValidName="setValidFinJur" MappedIsValidName="isValidFinJur" MappedIsNilMember="_isNilFinJur" MappedSetNilName="setNilFinJur" MappedIsNilName="isNilFinJur" MappedMemberName="_finJur" MappedDisplayName="FinJur" MappedSetterName="setFinJur" MappedGetterName="getFinJur">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="CodCol" DefaultValue="" MappedIsValidMember="_isValidCodCol" MappedSetValidName="setValidCodCol" MappedIsValidName="isValidCodCol" MappedIsNilMember="_isNilCodCol" MappedSetNilName="setNilCodCol" MappedIsNilName="isNilCodCol" MappedMemberName="_codCol" MappedDisplayName="CodCol" MappedSetterName="setCodCol" MappedGetterName="getCodCol">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="CodBud" DefaultValue="" MappedIsValidMember="_isValidCodBud" MappedSetValidName="setValidCodBud" MappedIsValidName="isValidCodBud" MappedIsNilMember="_isNilCodBud" MappedSetNilName="setNilCodBud" MappedIsNilName="isNilCodBud" MappedMemberName="_codBud" MappedDisplayName="CodBud" MappedSetterName="setCodBud" MappedGetterName="getCodBud">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="LibelleColBud" DefaultValue="" MappedIsValidMember="_isValidLibelleColBud" MappedSetValidName="setValidLibelleColBud" MappedIsValidName="isValidLibelleColBud" MappedIsNilMember="_isNilLibelleColBud" MappedSetNilName="setNilLibelleColBud" MappedIsNilName="isNilLibelleColBud" MappedMemberName="_libelleColBud" MappedDisplayName="LibelleColBud" MappedSetterName="setLibelleColBud" MappedGetterName="getLibelleColBud">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TEnveloppe" LongName="TEnveloppe" MappedClassColName="TEnveloppeCol" MappedClassName="TEnveloppe">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="Parametres" DefaultValue="" MappedIsValidMember="_isValidParametres" MappedSetValidName="setValidParametres" MappedIsValidName="isValidParametres" MappedIsNilMember="_isNilParametres" MappedSetNilName="setNilParametres" MappedIsNilName="isNilParametres" MappedMemberName="_parametres" MappedDisplayName="Parametres" MappedSetterName="setParametres" MappedGetterName="getParametres">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Emetteur" DefaultValue="" MappedIsValidMember="_isValidEmetteur" MappedSetValidName="setValidEmetteur" MappedIsValidName="isValidEmetteur" MappedIsNilMember="_isNilEmetteur" MappedSetNilName="setNilEmetteur" MappedIsNilName="isNilEmetteur" MappedMemberName="_emetteur" MappedDisplayName="Emetteur" MappedSetterName="setEmetteur" MappedGetterName="getEmetteur">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Recepteur" DefaultValue="" MappedIsValidMember="_isValidRecepteur" MappedSetValidName="setValidRecepteur" MappedIsValidName="isValidRecepteur" MappedIsNilMember="_isNilRecepteur" MappedSetNilName="setNilRecepteur" MappedIsNilName="isNilRecepteur" MappedMemberName="_recepteur" MappedDisplayName="Recepteur" MappedSetterName="setRecepteur" MappedGetterName="getRecepteur">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TEtatPce" LongName="TEtatPce" MappedClassColName="TEtatPceCol" MappedClassName="TEtatPce">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Enum Name="V" MappedEnumColName="TEtatPce_VCol" MappedEnumName="TEtatPce_V">
+      <Value Value="02" MappedValue="n02" />
+    </Enum>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TInfoLignePiece_TIPI" LongName="TInfoLignePiece_TIPI" MappedClassColName="TInfoLignePiece_TIPICol" MappedClassName="TInfoLignePiece_TIPI">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="IdLigne" DefaultValue="" MappedIsValidMember="_isValidIdLigne" MappedSetValidName="setValidIdLigne" MappedIsValidName="isValidIdLigne" MappedIsNilMember="_isNilIdLigne" MappedSetNilName="setNilIdLigne" MappedIsNilName="isNilIdLigne" MappedMemberName="_idLigne" MappedDisplayName="IdLigne" MappedSetterName="setIdLigne" MappedGetterName="getIdLigne">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="ObjLignePce" DefaultValue="" MappedIsValidMember="_isValidObjLignePce" MappedSetValidName="setValidObjLignePce" MappedIsValidName="isValidObjLignePce" MappedIsNilMember="_isNilObjLignePce" MappedSetNilName="setNilObjLignePce" MappedIsNilName="isNilObjLignePce" MappedMemberName="_objLignePce" MappedDisplayName="ObjLignePce" MappedSetterName="setObjLignePce" MappedGetterName="getObjLignePce">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Nature" DefaultValue="" MappedIsValidMember="_isValidNature" MappedSetValidName="setValidNature" MappedIsValidName="isValidNature" MappedIsNilMember="_isNilNature" MappedSetNilName="setNilNature" MappedIsNilName="isNilNature" MappedMemberName="_nature" MappedDisplayName="Nature" MappedSetterName="setNature" MappedGetterName="getNature">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="MtTTC" DefaultValue="" MappedIsValidMember="_isValidMtTTC" MappedSetValidName="setValidMtTTC" MappedIsValidName="isValidMtTTC" MappedIsNilMember="_isNilMtTTC" MappedSetNilName="setNilMtTTC" MappedIsNilName="isNilMtTTC" MappedMemberName="_mtTTC" MappedDisplayName="MtTTC" MappedSetterName="setMtTTC" MappedGetterName="getMtTTC">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="CodEtGeo" DefaultValue="" MappedIsValidMember="_isValidCodEtGeo" MappedSetValidName="setValidCodEtGeo" MappedIsValidName="isValidCodEtGeo" MappedIsNilMember="_isNilCodEtGeo" MappedSetNilName="setNilCodEtGeo" MappedIsNilName="isNilCodEtGeo" MappedMemberName="_codEtGeo" MappedDisplayName="CodEtGeo" MappedSetterName="setCodEtGeo" MappedGetterName="getCodEtGeo">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TInfoTiers_TIPI" LongName="TInfoTiers_TIPI" MappedClassColName="TInfoTiers_TIPICol" MappedClassName="TInfoTiers_TIPI">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="DteMalade" DefaultValue="" MappedIsValidMember="_isValidDteMalade" MappedSetValidName="setValidDteMalade" MappedIsValidName="isValidDteMalade" MappedIsNilMember="_isNilDteMalade" MappedSetNilName="setNilDteMalade" MappedIsNilName="isNilDteMalade" MappedMemberName="_dteMalade" MappedDisplayName="DteMalade" MappedSetterName="setDteMalade" MappedGetterName="getDteMalade">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="RefTiers" DefaultValue="" MappedIsValidMember="_isValidRefTiers" MappedSetValidName="setValidRefTiers" MappedIsValidName="isValidRefTiers" MappedIsNilMember="_isNilRefTiers" MappedSetNilName="setNilRefTiers" MappedIsNilName="isNilRefTiers" MappedMemberName="_refTiers" MappedDisplayName="RefTiers" MappedSetterName="setRefTiers" MappedGetterName="getRefTiers">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="CatTiers" DefaultValue="" MappedIsValidMember="_isValidCatTiers" MappedSetValidName="setValidCatTiers" MappedIsValidName="isValidCatTiers" MappedIsNilMember="_isNilCatTiers" MappedSetNilName="setNilCatTiers" MappedIsNilName="isNilCatTiers" MappedMemberName="_catTiers" MappedDisplayName="CatTiers" MappedSetterName="setCatTiers" MappedGetterName="getCatTiers">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="TypTiers" DefaultValue="" MappedIsValidMember="_isValidTypTiers" MappedSetValidName="setValidTypTiers" MappedIsValidName="isValidTypTiers" MappedIsNilMember="_isNilTypTiers" MappedSetNilName="setNilTypTiers" MappedIsNilName="isNilTypTiers" MappedMemberName="_typTiers" MappedDisplayName="TypTiers" MappedSetterName="setTypTiers" MappedGetterName="getTypTiers">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Civilite" DefaultValue="" MappedIsValidMember="_isValidCivilite" MappedSetValidName="setValidCivilite" MappedIsValidName="isValidCivilite" MappedIsNilMember="_isNilCivilite" MappedSetNilName="setNilCivilite" MappedIsNilName="isNilCivilite" MappedMemberName="_civilite" MappedDisplayName="Civilite" MappedSetterName="setCivilite" MappedGetterName="getCivilite">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Nom" DefaultValue="" MappedIsValidMember="_isValidNom" MappedSetValidName="setValidNom" MappedIsValidName="isValidNom" MappedIsNilMember="_isNilNom" MappedSetNilName="setNilNom" MappedIsNilName="isNilNom" MappedMemberName="_nom" MappedDisplayName="Nom" MappedSetterName="setNom" MappedGetterName="getNom">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="ComplNom" DefaultValue="" MappedIsValidMember="_isValidComplNom" MappedSetValidName="setValidComplNom" MappedIsValidName="isValidComplNom" MappedIsNilMember="_isNilComplNom" MappedSetNilName="setNilComplNom" MappedIsNilName="isNilComplNom" MappedMemberName="_complNom" MappedDisplayName="ComplNom" MappedSetterName="setComplNom" MappedGetterName="getComplNom">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Prenom" DefaultValue="" MappedIsValidMember="_isValidPrenom" MappedSetValidName="setValidPrenom" MappedIsValidName="isValidPrenom" MappedIsNilMember="_isNilPrenom" MappedSetNilName="setNilPrenom" MappedIsNilName="isNilPrenom" MappedMemberName="_prenom" MappedDisplayName="Prenom" MappedSetterName="setPrenom" MappedGetterName="getPrenom">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TLigneDePiece_TIPI" LongName="TLigneDePiece_TIPI" MappedClassColName="TLigneDePiece_TIPICol" MappedClassName="TLigneDePiece_TIPI">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="BlocLignePiece" DefaultValue="" MappedIsValidMember="_isValidBlocLignePiece" MappedSetValidName="setValidBlocLignePiece" MappedIsValidName="isValidBlocLignePiece" MappedIsNilMember="_isNilBlocLignePiece" MappedSetNilName="setNilBlocLignePiece" MappedIsNilName="isNilBlocLignePiece" MappedMemberName="_blocLignePiece" MappedDisplayName="BlocLignePiece" MappedSetterName="setBlocLignePiece" MappedGetterName="getBlocLignePiece">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Tiers" DefaultValue="" MappedIsValidMember="_isValidTiers" MappedSetValidName="setValidTiers" MappedIsValidName="isValidTiers" MappedIsNilMember="_isNilTiers" MappedSetNilName="setNilTiers" MappedIsNilName="isNilTiers" MappedMemberName="_tiers" MappedDisplayName="Tiers" MappedSetterName="setTiers" MappedGetterName="getTiers">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TNatPce" LongName="TNatPce" MappedClassColName="TNatPceCol" MappedClassName="TNatPce">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Enum Name="V" MappedEnumColName="TNatPce_VCol" MappedEnumName="TNatPce_V">
+      <Value Value="01" MappedValue="n01" />
+      <Value Value="02" MappedValue="n02" />
+      <Value Value="03" MappedValue="n03" />
+      <Value Value="04" MappedValue="n04" />
+      <Value Value="07" MappedValue="n07" />
+      <Value Value="08" MappedValue="n08" />
+      <Value Value="11" MappedValue="n11" />
+      <Value Value="12" MappedValue="n12" />
+    </Enum>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TParametres" LongName="TParametres" MappedClassColName="TParametresCol" MappedClassName="TParametres">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="Version" DefaultValue="" MappedIsValidMember="_isValidVersion" MappedSetValidName="setValidVersion" MappedIsValidName="isValidVersion" MappedIsNilMember="_isNilVersion" MappedSetNilName="setNilVersion" MappedIsNilName="isNilVersion" MappedMemberName="_version" MappedDisplayName="Version" MappedSetterName="setVersion" MappedGetterName="getVersion">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="TypFic" DefaultValue="" MappedIsValidMember="_isValidTypFic" MappedSetValidName="setValidTypFic" MappedIsValidName="isValidTypFic" MappedIsNilMember="_isNilTypFic" MappedSetNilName="setNilTypFic" MappedIsNilName="isNilTypFic" MappedMemberName="_typFic" MappedDisplayName="TypFic" MappedSetterName="setTypFic" MappedGetterName="getTypFic">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="NomFic" DefaultValue="" MappedIsValidMember="_isValidNomFic" MappedSetValidName="setValidNomFic" MappedIsValidName="isValidNomFic" MappedIsNilMember="_isNilNomFic" MappedSetNilName="setNilNomFic" MappedIsNilName="isNilNomFic" MappedMemberName="_nomFic" MappedDisplayName="NomFic" MappedSetterName="setNomFic" MappedGetterName="getNomFic">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TPES_Recette_TIPI" LongName="TPES_Recette_TIPI" MappedClassColName="TPES_Recette_TIPICol" MappedClassName="TPES_Recette_TIPI">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="Bordereau" DefaultValue="" MappedIsValidMember="_isValidBordereau" MappedSetValidName="setValidBordereau" MappedIsValidName="isValidBordereau" MappedIsNilMember="_isNilBordereau" MappedSetNilName="setNilBordereau" MappedIsNilName="isNilBordereau" MappedMemberName="_bordereau" MappedDisplayName="Bordereau" MappedSetterName="setBordereau" MappedGetterName="getBordereau">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TPiece_TIPI" LongName="TPiece_TIPI" MappedClassColName="TPiece_TIPICol" MappedClassName="TPiece_TIPI">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="BlocPiece" DefaultValue="" MappedIsValidMember="_isValidBlocPiece" MappedSetValidName="setValidBlocPiece" MappedIsValidName="isValidBlocPiece" MappedIsNilMember="_isNilBlocPiece" MappedSetNilName="setNilBlocPiece" MappedIsNilName="isNilBlocPiece" MappedMemberName="_blocPiece" MappedDisplayName="BlocPiece" MappedSetterName="setBlocPiece" MappedGetterName="getBlocPiece">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="LigneDePiece" DefaultValue="" MappedIsValidMember="_isValidLigneDePiece" MappedSetValidName="setValidLigneDePiece" MappedIsValidName="isValidLigneDePiece" MappedIsNilMember="_isNilLigneDePiece" MappedSetNilName="setNilLigneDePiece" MappedIsNilName="isNilLigneDePiece" MappedMemberName="_ligneDePiece" MappedDisplayName="LigneDePiece" MappedSetterName="setLigneDePiece" MappedGetterName="getLigneDePiece">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TTiers_TIPI" LongName="TTiers_TIPI" MappedClassColName="TTiers_TIPICol" MappedClassName="TTiers_TIPI">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Attribute Name="InfoTiers" DefaultValue="" MappedIsValidMember="_isValidInfoTiers" MappedSetValidName="setValidInfoTiers" MappedIsValidName="isValidInfoTiers" MappedIsNilMember="_isNilInfoTiers" MappedSetNilName="setNilInfoTiers" MappedIsNilName="isNilInfoTiers" MappedMemberName="_infoTiers" MappedDisplayName="InfoTiers" MappedSetterName="setInfoTiers" MappedGetterName="getInfoTiers">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+    <Attribute Name="Adresse" DefaultValue="" MappedIsValidMember="_isValidAdresse" MappedSetValidName="setValidAdresse" MappedIsValidName="isValidAdresse" MappedIsNilMember="_isNilAdresse" MappedSetNilName="setNilAdresse" MappedIsNilName="isNilAdresse" MappedMemberName="_adresse" MappedDisplayName="Adresse" MappedSetterName="setAdresse" MappedGetterName="getAdresse">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TTypBord" LongName="TTypBord" MappedClassColName="TTypBordCol" MappedClassName="TTypBord">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Enum Name="V" MappedEnumColName="TTypBord_VCol" MappedEnumName="TTypBord_V">
+      <Value Value="01" MappedValue="n01" />
+    </Enum>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TTypPce" LongName="TTypPce" MappedClassColName="TTypPceCol" MappedClassName="TTypPce">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Enum Name="V" MappedEnumColName="TTypPce_VCol" MappedEnumName="TTypPce_V">
+      <Value Value="01" MappedValue="n01" />
+    </Enum>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Class Name="TTypTiers" LongName="TTypTiers" MappedClassColName="TTypTiersCol" MappedClassName="TTypTiers">
+    <Description>
+    </Description>
+    <Remarks>
+    </Remarks>
+    <Enum Name="V" MappedEnumColName="TTypTiers_VCol" MappedEnumName="TTypTiers_V">
+      <Value Value="01" MappedValue="n01" />
+      <Value Value="02" MappedValue="n02" />
+      <Value Value="03" MappedValue="n03" />
+      <Value Value="04" MappedValue="n04" />
+      <Value Value="05" MappedValue="n05" />
+      <Value Value="06" MappedValue="n06" />
+      <Value Value="07" MappedValue="n07" />
+    </Enum>
+    <Attribute Name="V" DefaultValue="" MappedIsValidMember="_isValidV" MappedSetValidName="setValidV" MappedIsValidName="isValidV" MappedIsNilMember="_isNilV" MappedSetNilName="setNilV" MappedIsNilName="isNilV" MappedMemberName="_v" MappedDisplayName="V" MappedSetterName="setV" MappedGetterName="getV">
+      <Description>
+      </Description>
+      <Remarks>
+      </Remarks>
+    </Attribute>
+  </Class>
+  <Namespace SchemaNamespace="" SchemaAlias="" ClassNamespace="PES_V2_TIPI_RECETTE_AutonomeLib" />
+  <Namespace SchemaNamespace="http://www.minefi.gouv.fr/cp/helios/pes_v2/commun" SchemaAlias="cm" ClassNamespace="cm" />
+  <Namespace SchemaNamespace="http://www.minefi.gouv.fr/cp/helios/pes_v2/TIPIRECETTE/r0/retour" SchemaAlias="tipir" ClassNamespace="tipir" />
+  <Namespace SchemaNamespace="http://www.minefi.gouv.fr/cp/helios/pes_v2/Rev0/retour" SchemaAlias="" ClassNamespace="tns" />
+</MappingSchema>

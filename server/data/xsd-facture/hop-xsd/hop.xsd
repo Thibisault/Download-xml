@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cm="http://www.minefi.gouv.fr/cp/helios/pes_v2/commun" targetNamespace="http://www.minefi.gouv.fr/cp/helios/pes_v2/TIPIRECETTE/r0/retour" elementFormDefault="unqualified">
+    <!-- Déclarations de types communs -->
+    <xs:complexType name="Base_Alphanum1">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum2">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum3">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum4">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum5">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum6">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum10">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum11">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum12">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum14">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum15">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum16">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum17">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum20">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum25">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum30">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum50">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum80">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum100">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Alphanum250">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num1">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num2">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num3">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num4">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num5">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num6">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num7">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num8">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num9">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num10">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num12">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num13">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num14">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num15">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num16">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num17">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num20">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Num25">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte2">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte5">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte6">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte7">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte10">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte11">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte12">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte14">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte15">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte16">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte20">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte24">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte25">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte30">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte32">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte34">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte38">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte50">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte70">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte100">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte160">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte200">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte250">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Texte500">
+        <xs:attribute name="V" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Annee">
+        <xs:attribute name="V" type="xs:gYear" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Booleen">
+        <xs:attribute name="V" type="xs:boolean" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Date">
+        <xs:attribute name="V" type="xs:date" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Montant">
+        <xs:attribute name="V" type="xs:decimal" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Taux">
+        <xs:attribute name="V" type="xs:decimal" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Montant3">
+        <xs:attribute name="V" type="xs:decimal" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Taux3">
+        <xs:attribute name="V" type="xs:decimal" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Dec3">
+        <xs:attribute name="V" type="xs:decimal" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="Base_Dec2">
+        <xs:attribute name="V" type="xs:decimal" use="required"/>
+    </xs:complexType>
+
+    <!-- TNatInf -->
+    <xs:complexType name="TNatInf">
+        <xs:attribute name="V" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="0"/>
+                    <xs:enumeration value="1"/>
+                    <xs:enumeration value="2"/>
+                    <xs:enumeration value="3"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <!-- TTypBord -->
+    <xs:complexType name="TTypBord">
+        <xs:attribute name="V" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="01"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <!-- TTypPce -->
+    <xs:complexType name="TTypPce">
+        <xs:attribute name="V" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="01"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <!-- TNatPce -->
+    <xs:complexType name="TNatPce">
+        <xs:attribute name="V" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="01"/>
+                    <xs:enumeration value="02"/>
+                    <xs:enumeration value="03"/>
+                    <xs:enumeration value="04"/>
+                    <xs:enumeration value="07"/>
+                    <xs:enumeration value="08"/>
+                    <xs:enumeration value="11"/>
+                    <xs:enumeration value="12"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <!-- TEtatPce -->
+    <xs:complexType name="TEtatPce">
+        <xs:attribute name="V" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="02"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <!-- TEtPce -->
+    <xs:complexType name="TEtPce">
+        <xs:attribute name="V" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="02"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <!-- TTypTiers -->
+    <xs:complexType name="TTypTiers">
+        <xs:attribute name="V" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="01"/>
+                    <xs:enumeration value="02"/>
+                    <xs:enumeration value="03"/>
+                    <xs:enumeration value="04"/>
+                    <xs:enumeration value="05"/>
+                    <xs:enumeration value="06"/>
+                    <xs:enumeration value="07"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <!-- TCatPce -->
+    <xs:complexType name="TCatPce">
+        <xs:attribute name="V" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="1"/>
+                    <xs:enumeration value="2"/>
+                    <xs:enumeration value="3"/>
+                    <xs:enumeration value="4"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <!-- TBlocPiece_TIPI -->
+    <xs:complexType name="TBlocPiece_TIPI">
+        <xs:sequence>
+            <xs:element name="CodServ" type="Base_Texte10" minOccurs="0"/>
+            <xs:element name="CodProd" type="Base_Alphanum2" minOccurs="0"/>
+            <xs:element name="IdPce" type="Base_Num8"/>
+            <xs:element name="TypPce" type="TTypPce"/>
+            <xs:element name="NatPce" type="TNatPce"/>
+            <xs:element name="CatPce" type="TCatPce"/>
+            <xs:element name="DteAsp" type="Base_Date" minOccurs="0"/>
+            <xs:element name="DebFact" type="Base_Date" minOccurs="0"/>
+            <xs:element name="FinFact" type="Base_Date" minOccurs="0"/>
+            <xs:element name="EtatPce" type="TEtatPce"/>
+            <xs:element name="DtePcePec" type="Base_Date"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- TInfoTiers -->
+    <xs:complexType name="TInfoTiers">
+        <xs:sequence>
+            <xs:element name="DteMalade" type="Base_Date" minOccurs="0"/>
+            <xs:element name="RefTiers" type="Base_Texte30" minOccurs="0"/>
+            <xs:element name="CatTiers" type="TCatTiers"/>
+            <xs:element name="TypTiers" type="TTypTiers"/>
+            <xs:element name="Civilite" type="Base_Texte10" minOccurs="0"/>
+            <xs:element name="Nom" type="Base_Texte38"/>
+            <xs:element name="ComplNom" type="Base_Texte38" minOccurs="0"/>
+            <xs:element name="Prenom" type="Base_Texte38" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- TBlocLignePiece_TIPI -->
+    <xs:complexType name="TBlocLignePiece_TIPI">
+        <xs:sequence>
+            <xs:element name="InfoLignePiece" type="TInfoLignePiece_TIPI">
+                <xs:annotation>
+                    <xs:documentation>Informations Ligne de Piece</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- TInfoLignePiece_TIPI -->
+    <xs:complexType name="TInfoLignePiece_TIPI">
+        <xs:sequence>
+            <xs:element name="IdLigne" type="Base_Num6"/>
+            <xs:element name="ObjLignePce" type="Base_Texte160" minOccurs="0"/>
+            <xs:element name="Nature" type="Base_Texte12"/>
+            <xs:element name="MtTTC" type="Base_Montant"/>
+            <xs:element name="CodEtGeo" type="Base_Alphanum3" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- TBlocBordereau_TIPI -->
+    <xs:complexType name="TBlocBordereau_TIPI">
+        <xs:sequence>
+            <xs:element name="Exer" type="Base_Annee"/>
+            <xs:element name="IdBord" type="Base_Num7"/>
+            <xs:element name="TypBord" type="TTypBord"/>
+            <xs:element name="NbrePce" type="Base_Num5"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- TAdresse_TIPI -->
+    <xs:complexType name="TAdresse_TIPI">
+        <xs:sequence>
+            <xs:element name="Adr1" type="Base_Texte38" minOccurs="0"/>
+            <xs:element name="Adr2" type="Base_Texte38" minOccurs="0"/>
+            <xs:element name="Adr3" type="Base_Texte38" minOccurs="0"/>
+            <xs:element name="CP" type="Base_Texte5"/>
+            <xs:element name="Ville" type="Base_Texte38"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- TInfoTiers_TIPI -->
+    <xs:complexType name="TInfoTiers_TIPI">
+        <xs:sequence>
+            <xs:element name="DteMalade" type="Base_Date" minOccurs="0"/>
+            <xs:element name="RefTiers" type="Base_Texte30" minOccurs="0"/>
+            <xs:element name="CatTiers" type="cm:TCatTiers"/>
+            <xs:element name="TypTiers" type="TTypTiers" minOccurs="0"/>
+            <xs:element name="Civilite" type="Base_Texte10" minOccurs="0"/>
+            <xs:element name="Nom" type="Base_Texte38"/>
+            <xs:element name="ComplNom" type="Base_Texte38" minOccurs="0"/>
+            <xs:element name="Prenom" type="Base_Texte38" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- TPES_Recette_TIPI -->
+    <xs:complexType name="TPES_Recette_TIPI">
+        <xs:sequence>
+            <xs:element name="Bordereau" type="TBordereau_TIPI" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- TBordereau_TIPI -->
+    <xs:complexType name="TBordereau_TIPI">
+        <xs:sequence>
+            <xs:element name="BlocBordereau" type="TBlocBordereau_TIPI"/>
+            <xs:element name="Piece" type="TPiece_TIPI" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- TPiece_TIPI -->
+    <xs:complexType name="TPiece_TIPI">
+        <xs:sequence>
+            <xs:element name="BlocPiece" type="TBlocPiece_TIPI"/>
+            <xs:element name="LigneDePiece" type="TLigneDePiece_TIPI" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- TLigneDePiece_TIPI -->
+    <xs:complexType name="TLigneDePiece_TIPI">
+        <xs:sequence>
+            <xs:element name="BlocLignePiece" type="TBlocLignePiece_TIPI"/>
+            <xs:element name="Tiers" type="TTiers_TIPI" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- TTiers_TIPI -->
+    <xs:complexType name="TTiers_TIPI">
+        <xs:sequence>
+            <xs:element name="InfoTiers" type="TInfoTiers_TIPI"/>
+            <xs:element name="Adresse" type="TAdresse_TIPI" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

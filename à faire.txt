@@ -1,0 +1,35 @@
+- faire des erreurs grâce à definedEventHandler :"import { createError, defineEventHandler } from "h3";
+
+app.use(
+  "/validate",
+  defineEventHandler((event) => {
+    throw createError({
+      status: 400,
+      statusMessage: "Bad Request",
+      message: "Invalid user input",
+      data: { field: "email" }
+    });
+  }),
+);
+https://h3.unjs.io/guide/event-handler
+--
+
+Essayer de faire toutes les création dans le service (Donc récupérer les données dans les fichiers ts puis les manipuler pour les transformer grâce à la bonne librairie dans le service)
+Le but étant d'utiliser la librairie dans un minimum d'endroit possible, et donc en cas de changement avoir moimns de mises à jours à faire. 
+--
+
+Terminer la fonction pour faire les téléchargements personalisées
+    - Récupérer tout les idpost que l'utilisateur a dans sa liste,
+    - puis en fonction des factures par idpost que l'utilisateur a saisi, récupérer autant de codBud différent des idposts séléctionné par l'utilisateur. 
+    - Puis téléchargé tout les fichiers xml avec ces bonnes données récupérés ci dessus. 
+--
+
+Faire un fichier par type de facture, puis en fonction de la facture seléctionné par l'utilisateur, adapter les services à ce type de facture. 
+--
+
+Dans la section facture peresonalisé, il faut avoir une étape préalable, qui nous permette de choisir le type de facture avant d'avoir les inputs pour choisirs les idposts
+-- 
+
+Personaliser les 3  différents types de fichiers (hop, rec, rol)
+
+--
