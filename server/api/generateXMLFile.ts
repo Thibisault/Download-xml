@@ -5,29 +5,33 @@ import { mockDataHop } from '../data/mock-data-hop';
 import { mockDataRol } from '../data/mock-data-rol';
 import { mockDataRec } from '../data/mock-data-rec';
 import { mockIdPceData } from '../data/mock-idpce';
-
+import {mockNumdetteData} from '../data/mock-numdette';
 const generateFiles = (type: string , idPostsArray: any[] | null, numIdPostInt: number | null , numFilesPerIdPostInt: number ) => {
   let generateXML;
   let mockData;
+  let mockIncrementValue;
 
   switch (type) {
     case 'hop':
       generateXML = generateXMLHop;
       mockData = mockDataHop;
+      mockIncrementValue = mockIdPceData;
       break;
     case 'rol':
       generateXML = generateXMLRol;
       mockData = mockDataRol;
+      mockIncrementValue = mockNumdetteData;
       break;
     case 'rec':
       generateXML = generateXMLRec;
       mockData = mockDataRec;
+      mockIncrementValue = mockIdPceData;
       break;
     default:
       throw new Error('Invalid type');
   }
 
-  const lastIdPce = parseInt(mockIdPceData[mockIdPceData.length - 1].idPce, 10);
+  const lastIdPce = parseInt(mockIncrementValue[mockIncrementValue.length - 1].idPce, 10);
   let currentIdPce = lastIdPce + 1;
   let fileCounter = 0;
   let totalFilesGenerated = 0;
