@@ -25,9 +25,9 @@ function getRandomDate() {
   return date.toISOString().split('T')[0];
 }
 
-export function generateXML(IdPost: string, CodCol: string, idPceStart: number, fileCounter: number): { nomFic: string, xmlContent: string, currentIdPce: number } {
-  const nbrePce = Math.floor(Math.random() * 99) + 1;
-  let currentIdPce = idPceStart;
+export function generateXML(IdPost: string, CodCol: string, numDetteStart: number, fileCounter: number): { nomFic: string, xmlContent: string, currentNumDette: number } {
+  const idRol = Math.floor(Math.random() * 9) + 1;
+  let currentNumDette = numDetteStart;
 
   const TypFic = 'TIPIROL';
   const Exer = new Date().getFullYear().toString();
@@ -41,7 +41,7 @@ export function generateXML(IdPost: string, CodCol: string, idPceStart: number, 
       xsi: 'http://www.w3.org/2001/XMLSchema-instance'
     }
   })
-  .att('xsi:schemaLocation', 'http://www.minefi.gouv.fr/cp/helios/pes_v2/Rev0/retour /opt/tx5115/users/ediprod/messages/XML/PES_V2/Externe/Schemas_PES/PES_V2/Rev0/PES_V2_TIPI_RECETTE_Autonome.xsd')
+  .att('xsi:schemaLocation', 'http://www.minefi.gouv.fr/cp/helios/pes_v2/Rev0/retour /opt/tx5115/users/ediprod/messages/XML/PES_V2/Externe/Schemas_PES/PES_V2/Rev0/PES_V2_TIPI_ROLE_Autonome.xsd')
   .ele('Enveloppe')
     .ele('Parametres')
       .ele('Version', { V: '2' }).up()
@@ -52,66 +52,49 @@ export function generateXML(IdPost: string, CodCol: string, idPceStart: number, 
   .ele('EnTetePES')
     .ele('DteStr', { V: getRandomDate() }).up()
     .ele('IdPost', { V: IdPost }).up()
-    .ele('LibellePoste', { V: 'CHAMBERY ETS HOSPITALIERS' }).up()
-    .ele('IdColl', { V: getRandomNumber(14) }).up()
-    .ele('FinJur', { V: getRandomNumber(9) }).up()
     .ele('CodCol', { V: CodCol }).up()
     .ele('CodBud', { V: '00' }).up()
-    .ele('LibelleColBud', { V: 'CHG BOURG ST MAURICE' }).up()
   .up()
-  .ele('PES_TIPI_Recette')
-    .ele('Bordereau')
-      .ele('BlocBordereau')
+  .ele('PES_TIPI_Role')
+    .ele('Role')
+      .ele('BlocRole')
         .ele('Exer', { V: Exer }).up()
-        .ele('IdBord', { V: getRandomNumber(7) }).up()
-        .ele('TypBord', { V: '01' }).up()
-        .ele('NbrePce', { V: nbrePce.toString() }).up()
+        .ele('IdRol', { V: idRol.toString() }).up()
+        .ele('TypRol', { V: '01' }).up()
+        .ele('DteAsp', { V: getRandomDate() }).up()
       .up();
 
-  for (let i = 0; i < nbrePce; i++) {
-    const piece = xml.ele('Piece');
-    const blocPiece = piece.ele('BlocPiece')
-      .ele('IdPce', { V: (currentIdPce++).toString() }).up()
-      .ele('TypPce', { V: '01' }).up()
-      .ele('NatPce', { V: '01' }).up()
-      .ele('CatPce', { V: '1' }).up()
-      .ele('DebFact', { V: getRandomDate() }).up()
-      .ele('FinFact', { V: getRandomDate() }).up()
-      .ele('EtatPce', { V: '02' }).up()
-      .ele('DtePcePec', { V: getRandomDate() }).up()
-    .up();
-
-    const ligneDePiece = piece.ele('LigneDePiece');
-    const blocLignePiece = ligneDePiece.ele('BlocLignePiece')
-      .ele('InfoLignePiece')
-        .ele('IdLigne', { V: '1' }).up()
-        .ele('ObjLignePce', { V: getRandomString(50) }).up()
-        .ele('Nature', { V: getRandomNumber(6) }).up()
-        .ele('MtTTC', { V: getRandomNumber(3) + '.' + getRandomNumber(2) }).up()
-        .ele('CodEtGeo', { V: getRandomNumber(2) }).up()
+  for (let i = 0; i < idRol; i++) {
+    const article = xml.ele('Article');
+    const blocArticle = article.ele('BlocArticle')
+      .ele('InfoArticle')
+        .ele('IdPce', { V: (23070000 + i + 1).toString() }).up()
+        .ele('NumDette', { V: (currentNumDette++).toString() }).up()
+        .ele('Per', { V: '1' }).up()
+        .ele('EtatPce', { V: '02' }).up()
+        .ele('DtePcePec', { V: getRandomDate() }).up()
+        .ele('CodProdLoc', { V: '83' }).up()
+        .ele('ObjPce', { V: 'Facture Cantine Juillet 2023' }).up()
+        .ele('MtTTC', { V: (Math.random() * 50).toFixed(2) }).up()
       .up()
     .up();
 
-    for (let k = 0; k < 2; k++) {
-      const tiers = ligneDePiece.ele('Tiers')
-        .ele('InfoTiers')
-          .ele('DteMalade', { V: getRandomDate() }).up()
-          .ele('RefTiers', { V: getRandomNumber(12) }).up()
-          .ele('CatTiers', { V: '01' }).up()
-          .ele('TypTiers', { V: getRandomNumber(2) }).up()
-          .ele('Civilite', { V: getRandomString(3) }).up()
-          .ele('Nom', { V: getRandomString(10) }).up()
-          .ele('Prenom', { V: getRandomString(10) }).up()
-        .up()
-        .ele('Adresse')
-          .ele('Adr1', { V: getRandomString(20) }).up()
-          .ele('CP', { V: getRandomNumber(5) }).up()
-          .ele('Ville', { V: getRandomString(15) }).up()
-        .up()
-      .up();
-    }
+    const tiers = article.ele('Tiers')
+      .ele('InfoTiers')
+        .ele('RefTiers', { V: getRandomNumber(12) }).up()
+        .ele('CatTiers', { V: '01' }).up()
+        .ele('Civilite', { V: 'MME' }).up()
+        .ele('Nom', { V: getRandomString(10) }).up()
+        .ele('Prenom', { V: getRandomString(10) }).up()
+      .up()
+      .ele('Adresse')
+        .ele('Adr1', { V: getRandomString(20) }).up()
+        .ele('CP', { V: getRandomNumber(5) }).up()
+        .ele('Ville', { V: getRandomString(15) }).up()
+      .up()
+    .up();
   }
 
   const xmlContent = xml.end({ pretty: true });
-  return { nomFic: NomFic, xmlContent, currentIdPce }; 
+  return { nomFic: NomFic, xmlContent, currentNumDette };
 }

@@ -13,6 +13,7 @@
     "@nuxt/http": "^0.6.4",
     "@nuxt/typescript-build": "^3.0.2",
     "@vueuse/core": "^10.10.0",
+    "@xmldom/xmldom": "^0.8.10",
     "axios": "^1.7.2",
     "consola": "^3.2.3",
     "defu": "^6.1.4",
