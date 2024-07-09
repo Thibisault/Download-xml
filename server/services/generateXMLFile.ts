@@ -1,12 +1,13 @@
 import { generateXML as generateXMLHop } from '../data/template-facture/hop-template';
 import { generateXML as generateXMLRol } from '../data/template-facture/rol-template';
 import { generateXML as generateXMLRec } from '../data/template-facture/rec-template';
-import { mockDataHop } from '../data/mock-data-hop';
-import { mockDataRol } from '../data/mock-data-rol';
-import { mockDataRec } from '../data/mock-data-rec';
-import { mockIdPceData } from '../data/mock-idpce';
-import {mockNumdetteData} from '../data/mock-numdette';
-const generateFiles = (type: string , idPostsArray: any[] | null, numIdPostInt: number | null , numFilesPerIdPostInt: number ) => {
+import { mockDataHop } from '../data/mock-data/mock-data-hop';
+import { mockDataRol } from '../data/mock-data/mock-data-rol';
+import { mockDataRec } from '../data/mock-data/mock-data-rec';
+import { mockIdPceData } from '../data/mock-data/mock-idpce';
+import { mockNumdetteData } from '../data/mock-data/mock-numdette';
+
+const generateFiles = (type: string, idPostsArray: any[] | null, numIdPostInt: number | null, numFilesPerIdPostInt: number) => {
   let generateXML;
   let mockData;
   let mockIncrementValue;
@@ -42,8 +43,8 @@ const generateFiles = (type: string , idPostsArray: any[] | null, numIdPostInt: 
   let alertMessageRecapNbreFacturesDownload = [];
 
   const processPosts = (posts: any[], numFilesPerPost: number) => {
-    posts.forEach((idPostData: { IdPost: any; CodCol: any; }) => {
-      const { IdPost, CodCol } = idPostData;
+    posts.forEach((idPostData: { IdPost: string; CodCol: string[]; CodBud: string; }) => {
+      const { IdPost, CodCol, CodBud } = idPostData;
       const availableCodCols = CodCol.length;
 
       if (numFilesPerPost > availableCodCols && !codColError) {
@@ -54,7 +55,7 @@ const generateFiles = (type: string , idPostsArray: any[] | null, numIdPostInt: 
       const selectedCodCols = CodCol.slice(0, Math.min(numFilesPerPost, availableCodCols));
 
       selectedCodCols.forEach((CodCol: string) => {
-        const { nomFic, xmlContent, currentIdPce: newCurrentIdPce } = generateXML(IdPost, CodCol, currentIdPce, fileCounter);
+        const { nomFic, xmlContent, currentIdPce: newCurrentIdPce } = generateXML(IdPost, CodCol, CodBud, currentIdPce, fileCounter);
         currentIdPce = newCurrentIdPce;
         fileCounter += 1;
         files.push({ nomFic, content: xmlContent });
@@ -67,7 +68,7 @@ const generateFiles = (type: string , idPostsArray: any[] | null, numIdPostInt: 
     const totalFilesRequested = idPostsArray.length * numFilesPerIdPostInt;
     const selectedIdPosts = idPostsArray.map((IdPost: string) => mockData.find(item => item.IdPost === IdPost)).filter(Boolean);
 
-    selectedIdPosts.forEach((idPostData: { IdPost: any; }) => {
+    selectedIdPosts.forEach((idPostData) => {
       if (!idPostData) {
         alertMessageIdPost.push(`Le poste comptable ${idPostData.IdPost} n'a pas été trouvé.`);
       }

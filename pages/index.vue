@@ -1,89 +1,65 @@
 <template>
-  <!-- Affichage de la page de base, elle contient les boutons de téléchargement et l'affichage des erreurs  -->
-  <div class="mgmt-global-container">
-    <div v-if="showBasePage" class="mgmt-container">
-      <h1 class="mgmt-heading">Télécharger Factures</h1>
-      <hr class="mgmt-divider"/>
+  <div class="container">
+    <!-- Affichage de la page de base, elle contient les boutons de téléchargement et l'affichage des erreurs  -->
+    <div v-if="showBasePage" class="main-content">
+      <h1 class="heading">Télécharger Factures</h1>
+      <hr class="divider"/>
       
-      <!-- Affiche les messages d'erreurs sur la page de base -->
-      <div v-if="alertMessages.length > 0 || alertRecapMessage" class="alert-modal">
-        <div class="alert-content">
-          <div v-if="alertRecapMessage">
-            <p>{{ alertRecapMessage }}</p>
-          </div>
-          <div v-if="alertMessages.length > 0">
-            <h2>Attention</h2>
-            <div v-for="message in alertMessages" :key="message">
-              <p>{{ message }}</p>
-            </div>
-          </div>
-          <button @click="alertMessages = []; alertRecapMessage = ''" class="mgmt-button confirm">OK</button>
+         <!-- Affiche les messages d'erreurs sur la page de base -->
+         <div v-if="alertMessages.length > 0 || alertRecapMessage" class="alert">
+        <div v-if="alertRecapMessage">
+          <p>{{ alertRecapMessage }}</p>
         </div>
+        <div v-if="alertMessages.length > 0">
+          <h2>Attention</h2>
+          <div v-for="message in alertMessages" :key="message">
+            <p>{{ message }}</p>
+          </div>
+        </div>
+        <button @click="alertMessages = []; alertRecapMessage = ''" class="btn btn-confirm">OK</button>
       </div>
 
       <!-- Affiche les deux boutons de téléchargement sur la page de base -->
       <div class="button-container">
-        <button @click="toggleShowDownloadPopup" class="mgmt-button download">
-          Télécharger Factures
-        </button>
-        <button @click="toggleShowTypeSelectionPopup" class="mgmt-button customize">
-          Personnalisation de la Facture
-        </button>
+        <button @click="toggleShowDownloadPopup" class="btn btn-download">Télécharger Factures</button>
+        <button @click="toggleShowTypeSelectionPopup" class="btn btn-customize">Personnalisation de la Facture</button>
       </div>
     </div>
 <!-- ---------------------------------------------------------------------- -->
 
     <!-- Popup apparaissant après avoir cliqué sur le bouton 'Télécharger Factures' sur la page de base
     Cette popup sert à choisir le nombre de idPost et le nombre de codCol par idPost puis de télécharger ces factures -->
-    <div v-if="showDownloadPopup" class="download-popup" ref="downloadPopup">
-      <div class="popup-content">
-        <div class="mgmt-popup-banner">
-          <h2>
-            <img src="assets/back.png" @click="closeDownloadPopup" class="remove-icon" />
-            Choisissez les paramètres de téléchargement
-          </h2>
-          <div class="input-group">
-            <div class="radio-group">
-              <div>
-                <input type="radio" id="hop" name="radio" v-model="selectedType" value="hop">
-                <label for="hop">Hop</label>
-              </div>
-              <div>
-                <input type="radio" id="rol" name="radio" v-model="selectedType" value="rol">
-                <label for="rol">Rol</label>
-              </div>
-              <div>
-                <input type="radio" id="rec" name="radio" v-model="selectedType" value="rec">
-                <label for="rec">Rec</label>
-              </div>
-            </div>
+    <div v-if="showDownloadPopup" class="modal" ref="downloadPopup">
+      <div class="modal-content">
+        <img src="assets/back.png" @click="closeDownloadPopup" class="back-icon" />
+        <h2>Choisissez les paramètres de téléchargement</h2> <br>
+        <div class="input-group">
+          <div>
+            <input type="radio" id="hop" name="radio" v-model="selectedType" value="hop">
+            <label for="hop">Hop</label>
           </div>
-          <div class="input-group">
-            <label for="numIdPost">Nombre de poste comptable</label>
-            <input
-              id="numIdPost"
-              v-model.number="numIdPost"
-              type="number"
-              min="1"
-              class="popup-input"
-            />
+          <div>
+            <input type="radio" id="rol" name="radio" v-model="selectedType" value="rol">
+            <label for="rol">Rol</label>
           </div>
-          <div class="input-group">
-            <label for="numFilesPerIdPost">Nombre de factures par poste comptable</label>
-            <input
-              id="numFilesPerIdPost"
-              v-model.number="numFilesPerIdPost"
-              type="number"
-              min="1"
-              class="popup-input"
-            />
+          <div>
+            <input type="radio" id="rec" name="radio" v-model="selectedType" value="rec">
+            <label for="rec">Rec</label>
           </div>
-          <div v-if="errorMessage" class="error-message">
-            <p>{{ errorMessage }}</p>
-          </div>
-          <div class="popup-actions">
-            <button @click="downloadFiles" class="mgmt-button confirm">Télécharger</button>
-          </div>
+        </div>
+        <div class="input-group">
+          <label for="numIdPost">Nombre de poste comptable</label>
+          <input id="numIdPost" v-model.number="numIdPost" type="number" min="1" class="input" />
+        </div>
+        <div class="input-group">
+          <label for="numFilesPerIdPost">Nombre de factures par poste comptable</label>
+          <input id="numFilesPerIdPost" v-model.number="numFilesPerIdPost" type="number" min="1" class="input" />
+        </div>
+        <div v-if="errorMessage" class="error-message">
+          <p>{{ errorMessage }}</p>
+        </div>
+        <div class="actions">
+          <button @click="downloadFiles" class="btn btn-confirm">Télécharger</button>
         </div>
       </div>
     </div>
@@ -91,20 +67,14 @@
 
     <!-- Permet de sélectionner le type de facture et arriver sur le pop-up de saisie manuelle des postes comptables après sélection 
      Cette popup apparaît après avoir cliqué sur le bouton 'Personnalisation de la Facture' sur la page de base -->
-    <div v-if="showTypeSelectionPopup" class="download-popup" ref="typeSelectionPopup">
-      <div class="popup-content">
-        <div class="mgmt-popup-banner">
-          <h2>
-            <img src="assets/back.png" @click="closeTypeSelectionPopup" class="remove-icon" />
-            Choisir type facture
-          </h2>
-          <div class="input-group">
-            <div class="radio-group">
-              <button @click="selectTypeAndContinue('hop')" class="mgmt-button type-select">Hop</button>
-              <button @click="selectTypeAndContinue('rol')" class="mgmt-button type-select">Rol</button>
-              <button @click="selectTypeAndContinue('rec')" class="mgmt-button type-select">Rec</button>
-            </div>
-          </div>
+    <div v-if="showTypeSelectionPopup" class="modal" ref="typeSelectionPopup">
+      <div class="modal-content">
+        <img src="assets/back.png" @click="closeTypeSelectionPopup" class="back-icon" />
+        <h2>Choisir type facture</h2>
+        <div class="input-group">
+          <button @click="selectTypeAndContinue('hop')" class="btn btn-type">Hop</button>
+          <button @click="selectTypeAndContinue('rol')" class="btn btn-type">Rol</button>
+          <button @click="selectTypeAndContinue('rec')" class="btn btn-type">Rec</button>
         </div>
       </div>
     </div>
@@ -112,66 +82,43 @@
 
     <!-- popup apparait après avoir choisi le type de facture et permet de saisir manuellement les postes comptables puis de choisir le nombre de factures à télécharger par postComptable
     Puis permet de télécharger la sélection personnalisée -->
-    <div v-if="showCustomizePopup" class="download-popup" ref="customizePopup">
-      <div class="popup-content">
-        <div class="mgmt-popup-banner">
-          <h2>
-            <img src="assets/back.png" @click="closeCustomizePopup" class="remove-icon" />
-            {{ customizeTitle }}
-          </h2>
-          <div class="popup-layout">
-            <div class="left-side">
-              <div class="input-group">
-                <label for="postComptable">Saisissez poste comptable</label>
-                <input
-                  id="postComptable"
-                  v-model="postComptable"
-                  @input="validatePostComptable"
-                  autocomplete="off"
-                  type="text"
-                  list="data"
-                  :class="{'valid': isPostComptableValid, 'invalid': !isPostComptableValid}"
-                  class="popup-input"
-                />
-                <datalist id="data">
-                  <option v-for="item in filteredMockData" :key="item.IdPost" :value="item.IdPost" />
-                </datalist>
-              </div>
-              <div class="popup-actions">
-                <button @click="addPostComptable" :disabled="!isPostComptableValid" class="mgmt-button confirm">Ajouter</button>
-              </div>
+    <div v-if="showCustomizePopup" class="modal" ref="customizePopup">
+      <div class="modal-content">
+        <img src="assets/back.png" @click="closeCustomizePopup" class="back-icon" />
+        <h2>{{ customizeTitle }}</h2>
+        <div class="popup-layout">
+          <div>
+            <div class="input-group">
+              <label for="postComptable">Saisissez poste comptable</label>
+              <input id="postComptable" v-model="postComptable" @input="validatePostComptable" autocomplete="off" type="text" list="data" class="input" :class="{'valid': isPostComptableValid, 'invalid': !isPostComptableValid}" />
+              <datalist id="data">
+                <option v-for="item in filteredMockData" :key="item.IdPost" :value="item.IdPost" />
+              </datalist>
             </div>
-            <div class="right-side">
-              <div class="added-posts" v-if="addedPostComptables.length > 0">
-                <h3>Postes comptables</h3>
-                <br>
-                <ul class="added-posts-list">
-                  <li v-for="post in addedPostComptables" :key="post" class="added-post-item">
-                    {{ post }}
-                    <img src="assets/clear.png" @click="removePostComptable(post)" class="remove-icon" />
-                  </li>
-                </ul>
-              </div>
+            <div class="actions">
+              <button @click="addPostComptable" :disabled="!isPostComptableValid" class="btn btn-confirm">Ajouter</button>
             </div>
           </div>
-          <hr class="mgmt-divider"/>
-          <div class="input-group" v-if="showHalfCustomizePopup">
-            <label for="numFilesPerIdPost">Nombre de factures par poste comptable</label>
-            <input
-              id="numFilesPerIdPost"
-              v-model.number="numFilesPerIdPost"
-              type="number"
-              min="1"
-              class="popup-input"
-            />
-          </div>          
-          <div class="popup-actions">
-            <button @click="downloadFiles" :disabled="addedPostComptables.length === 0" class="mgmt-button confirm" v-if="showHalfCustomizePopup">Télécharger</button>
+          <div class="added-posts" v-if="addedPostComptables.length > 0">
+            <h3>Postes comptables</h3>
+            <ul class="added-posts-list">
+              <li v-for="post in addedPostComptables" :key="post" class="added-post-item">
+                {{ post }}
+                <img src="assets/clear.png" @click="removePostComptable(post)" class="remove-icon" />
+              </li>
+            </ul>
           </div>
+        </div>
+        <hr class="divider" />
+        <div class="input-group" v-if="showHalfCustomizePopup">
+          <label for="numFilesPerIdPost">Nombre de factures par poste comptable</label>
+          <input id="numFilesPerIdPost" v-model.number="numFilesPerIdPost" type="number" min="1" class="input" />
+        </div>
+        <div class="actions">
+          <button @click="downloadFiles" :disabled="addedPostComptables.length === 0" class="btn btn-confirm" v-if="showHalfCustomizePopup">Télécharger</button>
         </div>
       </div>
     </div>
-
   </div>
 </template>
 <!-- ---------------------------------------------------------------------- -->
@@ -306,7 +253,7 @@ const downloadFiles = async () => { // Fonction pour télécharger les fichiers 
     }
     downloadZip(blob);
     closeDownloadPopup();
-    closeCustomizePopup();
+    showCustomizePopup.value = false;
   } catch (error) {
     console.error('Il y a une erreur lors de l\'opération fetch:', error);
     errorMessage.value = 'Une erreur est survenue lors du téléchargement des fichiers.';
@@ -355,7 +302,7 @@ const closeTypeSelectionPopup = () => { // Fonction pour fermer le pop-up de sé
 
 const closeCustomizePopup = () => { // Fonction pour fermer le pop-up de saisie manuelle des postes comptables
   showCustomizePopup.value = false;
-  showBasePage.value = true;
+  showTypeSelectionPopup.value = true;
   resetCustomization();
 };
 
@@ -369,5 +316,5 @@ const customizeTitle = computed(() => { // Permet de personnaliser le titre du p
 </script>
 
 <style scoped>
-/* styles */
+/* style */
 </style>

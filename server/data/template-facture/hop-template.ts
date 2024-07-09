@@ -25,12 +25,12 @@ function getRandomDate() {
   return date.toISOString().split('T')[0];
 }
 
-function getRandomTypTiers() { // Fonction pour obtenir un TypTiers aléatoire parmi les valeurs autorisées
+function getRandomTypTiers() {
   const typTiersValues = ['01', '02', '03', '04', '05', '06', '07'];
   return typTiersValues[Math.floor(Math.random() * typTiersValues.length)];
 }
 
-export function generateXML(IdPost: string, CodCol: string, idPceStart: number, fileCounter: number): { nomFic: string, xmlContent: string, currentIdPce: number } {
+export function generateXML(IdPost: string, CodCol: string, CodBud: string, idPceStart: number, fileCounter: number): { nomFic: string, xmlContent: string, currentIdPce: number } {
   const nbrePce = Math.floor(Math.random() * 9) + 1;
   let currentIdPce = idPceStart;
 
@@ -54,12 +54,12 @@ export function generateXML(IdPost: string, CodCol: string, idPceStart: number, 
     .ele('EnTetePES')
       .ele('DteStr').att('V', getRandomDate()).up()
       .ele('IdPost').att('V', IdPost).up()
-      .ele('LibellePoste').att('V', 'CHAMBERY ETS HOSPITALIERS').up()
-      .ele('IdColl').att('V', getRandomNumber(14)).up()
-      .ele('FinJur').att('V', getRandomNumber(9)).up()
+      .ele('LibellePoste').att('V', 'CHAMBERY ETS HOSPITALIERS').up() // Element facultatif pour validation xsd
+      .ele('IdColl').att('V', getRandomNumber(14)).up() // Element facultatif pour validation xsd
+      .ele('FinJur').att('V', getRandomNumber(9)).up()  // Element facultatif pour validation xsd
       .ele('CodCol').att('V', CodCol).up()
-      .ele('CodBud').att('V', '00').up()
-      .ele('LibelleColBud').att('V', 'CHG BOURG ST MAURICE').up()
+      .ele('CodBud').att('V', CodBud).up()  // Element facultatif pour validation xsd
+      .ele('LibelleColBud').att('V', 'CHG BOURG ST MAURICE').up()  // Element facultatif pour validation xsd
     .up()
     .ele('PES_TIPI_Recette')
       .ele('Bordereau')
@@ -77,8 +77,8 @@ export function generateXML(IdPost: string, CodCol: string, idPceStart: number, 
       .ele('TypPce').att('V', '01').up()
       .ele('NatPce').att('V', '01').up()
       .ele('CatPce').att('V', '1').up()
-      .ele('DebFact').att('V', getRandomDate()).up()
-      .ele('FinFact').att('V', getRandomDate()).up()
+      .ele('DebFact').att('V', getRandomDate()).up()  // Element facultatif pour validation xsd
+      .ele('FinFact').att('V', getRandomDate()).up()  // Element facultatif pour validation xsd
       .ele('EtatPce').att('V', '02').up()
       .ele('DtePcePec').att('V', getRandomDate()).up()
     .up();
@@ -87,26 +87,26 @@ export function generateXML(IdPost: string, CodCol: string, idPceStart: number, 
     ligneDePiece.ele('BlocLignePiece')
       .ele('InfoLignePiece')
         .ele('IdLigne').att('V', '1').up()
-        .ele('ObjLignePce').att('V', getRandomString(50)).up()
+        .ele('ObjLignePce').att('V', getRandomString(50)).up() // Element facultatif pour validation xsd
         .ele('Nature').att('V', getRandomNumber(6)).up()
         .ele('MtTTC').att('V', getRandomNumber(3) + '.' + getRandomNumber(2)).up()
-        .ele('CodEtGeo').att('V', getRandomNumber(2)).up()
+        .ele('CodEtGeo').att('V', getRandomNumber(2)).up() // Element facultatif pour validation xsd
       .up()
     .up();
 
     for (let k = 0; k < 2; k++) {
       const tiers = ligneDePiece.ele('Tiers')
         .ele('InfoTiers')
-          .ele('DteMalade').att('V', getRandomDate()).up()
-          .ele('RefTiers').att('V', getRandomNumber(12)).up()
+          .ele('DteMalade').att('V', getRandomDate()).up() // Element facultatif pour validation xsd
+          .ele('RefTiers').att('V', getRandomNumber(12)).up() // Element facultatif pour validation xsd
           .ele('CatTiers').att('V', '01').up()
-          .ele('TypTiers').att('V', getRandomTypTiers()).up() 
-          .ele('Civilite').att('V', getRandomString(3)).up()
+          .ele('TypTiers').att('V', getRandomTypTiers()).up() // Element facultatif pour validation xsd
+          .ele('Civilite').att('V', getRandomString(3)).up() // Element facultatif pour validation xsd
           .ele('Nom').att('V', getRandomString(10)).up()
-          .ele('Prenom').att('V', getRandomString(10)).up()
+          .ele('Prenom').att('V', getRandomString(10)).up() // Element facultatif pour validation xsd
         .up()
         .ele('Adresse')
-          .ele('Adr1').att('V', getRandomString(20)).up()
+          .ele('Adr1').att('V', getRandomString(20)).up() // Element facultatif pour validation xsd
           .ele('CP').att('V', getRandomNumber(5)).up()
           .ele('Ville').att('V', getRandomString(15)).up()
         .up()

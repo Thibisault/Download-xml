@@ -7,3 +7,4 @@ npm install consola@latest
 npm install jszip
 npm install file-saver
 
+npm install bootstrap

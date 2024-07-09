@@ -30,7 +30,7 @@ function getRandomTypTiers() {
   return typTiersValues[Math.floor(Math.random() * typTiersValues.length)];
 }
 
-export function generateXML(IdPost: string, CodCol: string, idPceStart: number, fileCounter: number): { nomFic: string, xmlContent: string, currentIdPce: number } {
+export function generateXML(IdPost: string, CodCol: string, CodBud: string, idPceStart: number, fileCounter: number): { nomFic: string, xmlContent: string, currentIdPce: number } {
   const nbrePce = Math.floor(Math.random() * 9) + 1;
   let currentIdPce = idPceStart;
 
@@ -57,7 +57,7 @@ export function generateXML(IdPost: string, CodCol: string, idPceStart: number, 
       .ele('LibellePoste').att('V', 'MONTVILLE').up()
       .ele('IdColl').att('V', getRandomNumber(14)).up()
       .ele('CodCol').att('V', CodCol).up()
-      .ele('CodBud').att('V', '00').up()
+      .ele('CodBud').att('V', CodBud).up()
       .ele('LibelleColBud').att('V', 'BRACHY').up()
     .up()
     .ele('PES_TIPI_Recette')

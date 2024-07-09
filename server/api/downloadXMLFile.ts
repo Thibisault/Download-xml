@@ -1,8 +1,8 @@
 import { defineEventHandler, getQuery, sendStream } from 'h3';
 import JSZip, { forEach } from 'jszip';
 import { Readable } from 'stream';
-import generateFiles from './generateXMLFile';
-import validateXML from './validateXMLFile';
+import generateFiles from '../services/generateXMLFile';
+import validateXML from '../services/validateXMLFile';
 
 export default defineEventHandler(async (event) => {
   const { numIdPost, numFilesPerIdPost, type, idPosts } = getQuery(event);

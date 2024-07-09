@@ -1,7 +1,7 @@
 import { defineEventHandler, getQuery } from 'h3';
-import { mockDataHop } from '../../server/data/mock-data-hop';
-import { mockDataRol } from '../../server/data/mock-data-rol';
-import { mockDataRec } from '../../server/data/mock-data-rec';
+import { mockDataHop } from '../data/mock-data/mock-data-hop';
+import { mockDataRol } from '../data/mock-data/mock-data-rol';
+import { mockDataRec } from '../data/mock-data/mock-data-rec';
 
 export default defineEventHandler(async (event) => {
   const { type } = getQuery(event);

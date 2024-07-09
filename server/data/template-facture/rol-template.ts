@@ -25,7 +25,7 @@ function getRandomDate() {
   return date.toISOString().split('T')[0];
 }
 
-export function generateXML(IdPost: string, CodCol: string, idPceStart: number, fileCounter: number): { nomFic: string, xmlContent: string, currentIdPce: number } {
+export function generateXML(IdPost: string, CodCol: string, CodBud: string, idPceStart: number, fileCounter: number): { nomFic: string, xmlContent: string, currentIdPce: number } {
   const idRol = Math.floor(Math.random() * 9) + 1;
   let currentIdPce = idPceStart;
 
@@ -49,7 +49,7 @@ export function generateXML(IdPost: string, CodCol: string, idPceStart: number, 
         .ele('DteStr').att('V', getRandomDate()).up()
         .ele('IdPost').att('V', IdPost).up()
         .ele('CodCol').att('V', CodCol).up()
-        .ele('CodBud').att('V', '00').up()
+        .ele('CodBud').att('V', CodBud).up()
       .up()
       .ele('PES_TIPI_Role')
         .ele('Role')

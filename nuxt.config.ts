@@ -6,5 +6,4 @@ css: [
 '/styles/global.css',
 '/styles/mgmt.css',
 ],
-
 });
