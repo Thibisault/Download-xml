@@ -19,22 +19,29 @@ export default defineEventHandler(async (event) => {
   try {
     ({ files, alerts } = generateFiles(type, idPostsArray, numIdPostInt, numFilesPerIdPostInt));
     
-    files.forEach(file => { 
+    files.forEach(file => {
+      let validateOrNot : Boolean = true; 
+      console.log(validateOrNot)
       try {
         validateXML(type, file.content);
       } catch (validationError : any) {
         if (errorMessages.length === 0 || errorMessages === undefined || errorMessages === null) {
         errorMessages = validationError.message;
         }
+        validateOrNot = false;
+        console.log(validateOrNot)
         numberErrorsForValidationXsdXml += 1;
       }
-      zip.file(file.nomFic, file.content, { compression: 'STORE' });
+      if (validateOrNot.valueOf()) {
+        console.log(validateOrNot)
+        zip.file(file.nomFic, file.content, { compression: 'STORE' });
+      }
     });
   } catch (error : any) {
     throw new Error(`Erreur pendant la génération ou la validation: ${error.message}`);
   }
   alerts.codCol.push(errorMessages);
-  if (alerts.codCol.length > 0) {
+  if (numberErrorsForValidationXsdXml > 0 ){
     alerts.codCol.push('Il y a ' + numberErrorsForValidationXsdXml + ' facture(s) qui n\'ont pas réussi la validation XML/XSD')
   }
 

@@ -8,3 +8,4 @@ npm install jszip
 npm install file-saver
 
 npm install bootstrap
+npm install mysql2

@@ -1,12 +1,12 @@
 export const mockDataRec = [
   {
-    IdPost: '023019',
-    CodCol: ['409'],
-    CodBud: '02'
+    IdPost: '021004',
+    CodCol: ['085'],
+    CodBud: '00'
   },
   {
-    IdPost: '065020',
-    CodCol: ['408'],
+    IdPost: '043023',
+    CodCol: ['039'],
     CodBud: '00'
   }
 ];

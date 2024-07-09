@@ -7,13 +7,11 @@
       
          <!-- Affiche les messages d'erreurs sur la page de base -->
          <div v-if="alertMessages.length > 0 || alertRecapMessage" class="alert">
-        <div v-if="alertRecapMessage">
           <p>{{ alertRecapMessage }}</p>
-        </div>
-        <div v-if="alertMessages.length > 0">
-          <h2>Attention</h2>
+         <div v-if="alertMessages.length > 1">
+          <br> <h2>Attention</h2> <br>
           <div v-for="message in alertMessages" :key="message">
-            <p>{{ message }}</p>
+            <p>{{ message }}</p> <br>
           </div>
         </div>
         <button @click="alertMessages = []; alertRecapMessage = ''" class="btn btn-confirm">OK</button>
@@ -31,8 +29,9 @@
     Cette popup sert à choisir le nombre de idPost et le nombre de codCol par idPost puis de télécharger ces factures -->
     <div v-if="showDownloadPopup" class="modal" ref="downloadPopup">
       <div class="modal-content">
-        <img src="assets/back.png" @click="closeDownloadPopup" class="back-icon" />
+        <img src="assets/back.png" @click="closeDownloadPopup" class="back-icon" />  <br>
         <h2>Choisissez les paramètres de téléchargement</h2> <br>
+        <hr class="divider" />
         <div class="input-group">
           <div>
             <input type="radio" id="hop" name="radio" v-model="selectedType" value="hop">
@@ -48,7 +47,7 @@
           </div>
         </div>
         <div class="input-group">
-          <label for="numIdPost">Nombre de poste comptable</label>
+          <br> <label for="numIdPost">Nombre de poste comptable</label>
           <input id="numIdPost" v-model.number="numIdPost" type="number" min="1" class="input" />
         </div>
         <div class="input-group">
@@ -69,8 +68,9 @@
      Cette popup apparaît après avoir cliqué sur le bouton 'Personnalisation de la Facture' sur la page de base -->
     <div v-if="showTypeSelectionPopup" class="modal" ref="typeSelectionPopup">
       <div class="modal-content">
-        <img src="assets/back.png" @click="closeTypeSelectionPopup" class="back-icon" />
-        <h2>Choisir type facture</h2>
+        <img src="assets/back.png" @click="closeTypeSelectionPopup" class="back-icon" /> <br>
+        <h2>Choisir type facture</h2> <br>
+        <hr class="divider" />
         <div class="input-group">
           <button @click="selectTypeAndContinue('hop')" class="btn btn-type">Hop</button>
           <button @click="selectTypeAndContinue('rol')" class="btn btn-type">Rol</button>
@@ -84,8 +84,8 @@
     Puis permet de télécharger la sélection personnalisée -->
     <div v-if="showCustomizePopup" class="modal" ref="customizePopup">
       <div class="modal-content">
-        <img src="assets/back.png" @click="closeCustomizePopup" class="back-icon" />
-        <h2>{{ customizeTitle }}</h2>
+        <img src="assets/back.png" @click="closeCustomizePopup" class="back-icon" /> <br>
+        <h2>{{ customizeTitle }}</h2> <br>
         <div class="popup-layout">
           <div>
             <div class="input-group">
@@ -109,8 +109,8 @@
             </ul>
           </div>
         </div>
-        <hr class="divider" />
         <div class="input-group" v-if="showHalfCustomizePopup">
+          <hr class="divider" />
           <label for="numFilesPerIdPost">Nombre de factures par poste comptable</label>
           <input id="numFilesPerIdPost" v-model.number="numFilesPerIdPost" type="number" min="1" class="input" />
         </div>
@@ -261,6 +261,7 @@ const downloadFiles = async () => { // Fonction pour télécharger les fichiers 
 };
 
 const handleAlerts = (alerts) => { // Fonction pour gérer les alertes reçues du serveur
+  console.log('alerts', alerts)
   if (!alerts) return;
   alertMessages.value = alerts.idPost || [];
   alertRecapMessage.value = alerts.recap?.join(' ') || '';

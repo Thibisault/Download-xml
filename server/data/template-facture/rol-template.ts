@@ -31,7 +31,7 @@ export function generateXML(IdPost: string, CodCol: string, CodBud: string, idPc
 
   const TypFic = 'TIPIROL';
   const Exer = new Date().getFullYear().toString();
-  const NomFic = `${TypFic}_${IdPost}_${CodCol}_${Exer}_${fileCounter.toString().padStart(3, '0')}.xml`;
+  const NomFic = `SL1V_${TypFic}_${IdPost}_${CodCol}_${CodBud}_${Exer}_${fileCounter.toString().padStart(3, '0')}.xml`;
 
   const xml = create({ version: '1.0', encoding: 'ISO-8859-15' })
     .ele('n:PES_Retour')

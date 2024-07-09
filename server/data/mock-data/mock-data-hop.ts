@@ -1,13 +1,13 @@
 export const mockDataHop = [
   {
-    IdPost: '021004',
-    CodCol: ['085'],  
+    IdPost: '069026',
+    CodCol: ['303'],  
     CodBud: '00'
   },
   {
-    IdPost: '043023',
-    CodCol: ['039'],
-    CodBud: '00'
+    IdPost: '013215',
+    CodCol: ['769'],
+    CodBud: 'E1'
   },
   ];
   

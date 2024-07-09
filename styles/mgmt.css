@@ -43,6 +43,7 @@ body {
   border-radius: 0.625rem;
   margin-bottom: 1rem;
   border-left: 0.25rem solid #ff6ec4;
+  border-right: 0.25rem solid #478ed1;
 }
 
 .alert h2, .error-message p {
@@ -80,6 +81,7 @@ body {
 }
 
 .btn-confirm {
+  margin-top: 1rem;
   background: #32a852;
 }
 
